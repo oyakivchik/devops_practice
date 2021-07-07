@@ -1,0 +1,60 @@
+    1  passwd
+    2  pwd
+    3  man pwd
+    4  man cd
+    5  ls
+    6  cd Документы/
+    7  pwd
+    8  cd ..
+    9  ls -al
+   10  ls -alh
+   11  cd
+   12  cat > info.txt
+   13  ls
+   14  cat info.txt
+   15  mkdir data1
+   16  ls
+   17  cp info.txt data1
+   18  ls
+   19  cd data1
+   20  ls
+   21  cd ..
+   22  ls
+   23  cp info.txt info2.txt
+   24  ls
+   25  mv info2.txt info_new.txt
+   26  ls
+   27  ls -l info_new.txt
+   28  cp info_new.txt info_user.txt
+   29  ls -alh
+   30  chmod o-rw info_user.txt
+   31  ls -alh
+   32  useradd test -p pnemesis353
+   33  su test
+   34  ls -alh
+   35  cat info_user.txt
+   36  cd ..
+   37  ls
+   38  cat info_user.txt
+   39  cd ..
+   40  ls
+   41  su pkl
+   42  cd ~
+   43  ls
+   44  su root
+   45  su test
+   46  ls
+   47  cd
+   48  pwd
+   49  ls
+   50  touch test.txt
+   51  ls -alh
+   52  su pkl
+   53  yum install -y mc
+   54  cd
+   55  ls
+   56  mc
+   57  ls
+   58  touch mc_file.txt
+   59  history > history.txt
+   60  cat history.txt
