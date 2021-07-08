@@ -1,0 +1,113 @@
+    1   sudo yum install openssh-serveri
+    2   exit
+    3   su
+    4   sudo
+    5   sudo yum install openssh-server
+    6   sudo systemctl start sshd
+    7   sudo service sshd start
+    8   sudo systemctl status sshd
+    9   sudo service sshd status
+   10   sudo systemctl enable sshd
+   11   firewall -cmd --zine=public --permanent --add-service=ssh
+   12   firewall-cmd --zine=public --permanent --add-service=ssh
+   13   firewall-cmd --zone=public --permanent --add-service=ssh
+   14   ssh admin@127.0.0.1
+   15   ssh admin@localhost
+   16   ssh admin@127.0.0.1
+   17   usermod -aG wheel username
+   18   sudo whoami
+   19   ls -|
+   20   ls /bin
+   21   ls -al
+   22   ls -al bin
+   23   ls -al /bin
+   24   su root
+   25   sudo service sshd status
+   26   sudo systemctl status sshd
+   27   sudo passwd
+   28   su
+   29   good
+   30   help
+   31   historys
+   32   exit
+   33   lol
+   34   ршіещкн
+   35   history
+   36   sudo yum install git
+   37   git config --global user.name "Vitia"
+   38   -ls
+   39   ls
+   40   cd
+   41   /
+   42   //
+   43   ls
+   44   cd..
+   45   cd ..
+   46   cd
+   47   ls
+   48   pwd
+   49   ls
+   50   cd ..
+   51   ls
+   52   mkdir 2021
+   53   ls
+   54   cd 2021
+   55   git init
+   56   git status
+   57   git clone repo_url
+   58   git clone https://github.com/oyakivchik/devops_practice
+   59   ls
+   60   cd devops_practice/
+   61   ls
+   62   cat README.md 
+   63   vi README.md 
+   64   git branch tereshchuk-viktor-32
+   65   git checkout tereshchuk-viktor-32 
+   66   ls
+   67   cat README.md 
+   68   git push origin tereshchuk-viktor-32 
+   69   ді
+   70   ls
+   71   cat README.md 
+   72   git add README.md 
+   73   git commit -m "Change information"
+   74   git push origin tereshchuk-viktor-32 
+   75   vi Lab1
+   76   ls
+   77   history
+   78   sudo LS
+   79   sudo ls
+   80   sudo passwd admin 
+   81   cd -
+   82   cd-
+   83   cd -
+   84   cd
+   85   ls
+   86   cd ..
+   87   ls
+   88   ls -l 2021
+   89   cd 2021
+   90   ls
+   91   cd devops_practice
+   92   ls
+   93   cat Lab1
+   94   vi Lab1
+   95   ps
+   96   pkill vi
+   97   ps
+   98   killall vi
+   99   ps
+   100  ps vi
+   101  ps axu | grep vi
+   102  kill 5833
+   103  ps axu | grep vi
+   104  kill 5833
+   105  ps axu | grep vi
+   106  ls
+   107  vi Lab1
+   108  vim -r Lab1
+   109  ps vi
+   110  vi Lab1
+   110  history > Lab1
+
+ 
