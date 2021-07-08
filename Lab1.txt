@@ -1,0 +1,102 @@
+    1  adduser user02
+    2  root
+    3  su root
+    4  sudo adduser user02
+    5  id user02
+    6  passwd user02 user02
+    7  sudo passwd user02 user02
+    8  sudo passwd user02
+    9  visudo
+   10  sudo visudo
+   11  usermod -aG wheel user02
+   12  users
+   13  sudo visudo
+   14  rm /etc/.sudoers.tmp.swp
+   15  sudo visudo
+   16  users
+   17  su -l userpass
+   18  su -l user02
+   19  sudo service sshd start
+   20  sudo service ssh status
+   21  sudo service sshd status
+   22  sudo visudo
+   23  vim -r /etc/sudoers.tmp
+   24  sudo visudo
+   25  sudo rm /etc/.sudoers.tmp.swp
+   26  cat /etc/.sudoers.tmp.swp
+   27  sudo visudo
+   28  groups
+   29  group wheel
+   30  cat /etc/group
+   31  su -l userpass
+   32  su -l user02
+   33  ls
+   34  sudo ls
+   35  passwd
+   36  pwd
+   37  man pwd
+   38  man man
+   39  info ls
+   40  ls -info
+   41  whatis ls
+   42  cd
+   43  mkdir testdir
+   44  ls
+   45  cd testdir
+   46  cd
+   47  ls home
+   48  sudo ls home
+   49  ls testdir
+   50  ls -a testdir
+   51  cd testdir
+   52  cat > testfile
+   53  cat testfile
+   54  more testfile
+   55  cat > testfile1
+   56  cat testfile > testfile1
+   57  cat testfile1
+   58  ls -a > testfile2
+   59  ls -a
+   60  cat testfile2
+   61  cd
+   62  mkdir testdir1
+   63  cd testdir1
+   64  cat > tf
+   65  cp tf tf1
+   66  ls
+   67  cp -r testdir1 testdir
+   68  cd
+   69  cp -r testdir1 testdir
+   70  cd testdir
+   71  ls
+   72  cat testfile testfile1 testfile2 > tf3
+   73  cat tf3
+   74  rm tf3
+   75  mkdir td2
+   76  rm -r td2
+   77  ls
+   78  mv testfile2 tf2
+   79  ls
+   80  mv testfile1 testdir1
+   81  ls
+   82  cd testdir1
+   83  ls
+   84  mc
+   85  cd
+   86  ls
+   87  cd testdir
+   88  ls
+   89  chown user02 testfile
+   90  sudo chown user02 testfile
+   91  id user02
+   92  sudo chgrp user02 testfile
+   93  ls -al
+   94  sudo chmod [g] {-} [w] testfile
+   95  chmod --help
+   96  chmod 644 testfile
+   97  sudo chmod 644 testfile
+   98  ls -al
+   99  umask
+  100  umask 0004
+  101  umask
+  102  history > Lab1
