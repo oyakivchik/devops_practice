@@ -1,0 +1,50 @@
+history
+sudo history
+.bash_history
+~/.bash_history
+cd home
+cd /
+man /
+info /
+cd
+pwd
+ls
+cd /
+ls
+history
+cd
+man cd
+info cd
+cd -info
+ls -info
+whatis cd
+cd /
+ls
+cd bin
+ls
+cd /
+cd/bin
+cd /bin
+ls -a
+cd /
+ls -a
+cd
+cat > text.txt
+ls
+cat text.txt
+mkdir data
+ls
+cp text.txt data
+cd data
+ls
+cd
+ls -al
+chmod 762 text.txt
+ls -al
+sudo yum install git
+git --version
+git config --global user.name "Victoria156"
+git config --global user.email "vikishishkina2001@gmil.com"
+git config --list
+cd
+history>lab1
