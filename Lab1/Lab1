@@ -1,0 +1,89 @@
+pwd
+cd /
+pwd
+ls
+cd
+pwd
+history
+cd /
+cp tmp
+ls
+cd
+ls
+cd
+pwd
+cd /
+ls
+cd usr
+ls
+cd games
+ls
+cd
+pwd
+history
+man /
+man bin
+info ls
+ps -f
+ps -ef
+cd /
+ls -al
+cd
+ls -info
+cd /
+ls
+ls -a > files
+sudo ls -a > files
+cd bin
+ls
+:(
+cd
+cd bin
+cd /
+cd bin
+ls
+cp jobs jobs22
+sudo cp jobs jobs22
+ls
+mv jobs22 home
+sudo mv jobs22 home
+ls
+pwd
+cd
+pwd
+man cd
+man cp
+man exit
+man man
+man -S
+man ls -S
+history
+ls -al
+ls
+cat info.txt
+cat > info.txt
+cat info.txt
+ls
+pwd
+mkdir data
+ls
+cp info.txt data
+ls
+cd data
+ls
+ls -al
+mc
+cd
+pwd
+history > Lab1
+cat Lab1
+sudo yum install git
+git --version
+git config --global user.name "Senpaaai"
+git config --global user.email "jeka200011505@gmail.com"
+git config --list
+cd
+history > Lab1
+rm Lab1
+ls
+history > Lab1
