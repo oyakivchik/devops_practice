@@ -1,1 +1,1 @@
-# devops_practice
+# Юрій Антощук
