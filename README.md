@@ -1,1 +1,1 @@
-# devops_practice
+# Іван Царик 341ск
