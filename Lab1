@@ -1,0 +1,69 @@
+    1  sudo adduser lop
+    2  passwd lop
+    3  sudo passwd lop
+    4  sudo usermod -aG wheel lop
+    5  sudo ls-la/root
+    6  sudo ls -la /root
+    7  sudo yum -y install openssh-server openssh-clients
+    8  sudo chkconfig sshd on
+    9  service sshd start
+   10  netstat -tulpn | grep :22
+   11  sudo service ssh status
+   12  sudo apt-get install openssh-server
+   13  hostname -I
+   14  ssh -p 2200 ashenwgt @ localhost
+   15  ssh -p 2200 karina @ localhost
+   16  ssh -p 2200 karina@localhost
+   17  sudo ls
+   18  sudo ls -la /root
+   19  cat/etc/passwd
+   20  sudo cat/etc/passwd
+   21  cat/etc/passwd
+   22  usermod -aG wheel lop
+   23  visudo
+   24  root ALL=(ALL)ALL
+   25  sudo ls -la /root
+   26  sudo chmod 0440/etc/sudoers.d/crash
+   27  sudo ls
+   28  man pwd
+   29  man man
+   30  info ls
+   31  ls -info
+   32  whatis ls
+   33  cd b
+   34  cd etc
+   35  ls etc
+   36  ls home
+   37  history
+   38  sudo ls
+   39  pwd
+   40  man pwd
+   41  info ls
+   42  ls -info
+   43  cd
+   44  cd home
+   45  cd ~
+   46  cd /home
+   47  ls
+   48  pwd
+   49  ls -al
+   50  cd ~
+   51  pwd
+   52  cat>info.txt
+   53  mkdir data1
+   54  cp info.txt data1
+   55  ls
+   56  ls data1
+   57  cp info.txt info2.txt
+   58  ls
+   59  ls data1
+   60  cd /data1
+   61  cd data1
+   62  cp info.txt info2.txt
+   63  ls
+   64  mv data1/info2.txt data1/info_new.txt
+   65  ls -l data1/info_new.txt
+   66  cp data1/info_new.txt data1/info_user.txt
+   67  chmod u+rw data1/info_user.txt
+   68  ls -l data1/info_user.txt
+   69  history>Lab1
