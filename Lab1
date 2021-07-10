@@ -1,0 +1,52 @@
+    1  sudo adduser petro
+    2  sudo passwd petro
+    3  sudo usermod -aG wheel petro
+    4  cat /etc/passwd
+    5  sudo visudo
+    6  sudo ks --la/root
+    7  sudo ls --la/root
+    8  ps -f
+    9  ps -ef
+   10  pwd
+   11  ls -al
+   12  ls -l
+   13  cd Music
+   14  cd video
+   15  cd Video
+   16  mkdir file
+   17  cd file
+   18  cd ~
+   19  cd dile
+   20  cd file
+   21  touch file1
+   22  touch file2
+   23  ls -l
+   24  cp file1 file2
+   25  mv file1 file2
+   26  cat file1
+   27  rm file2
+   28  df
+   29  du
+   30  chmod
+   31  chmod --help
+   32  chown
+   33  cd ~
+   34  ls -l
+   35  mkdir labs
+   36  cd labs
+   37  git clone https://github.com/oyakivchik/devops_practice.git
+   38  cd devops_practice
+   39  touch Lab1
+   40  ls -l
+   41  history > Lab1
+   42  cat Lab1
+   43  cd evhen-horetskyy-343
+   44  cd ~
+   45  ls -l
+   46  cd labs
+   47  ls -l
+   48  cd devops_practice
+   49  cd evhen-horetskyy-343
+   50  git checkout -b evhen-horetskyy-343
+   51  ls -l
+   52  history > Lab1
