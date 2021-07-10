@@ -1,0 +1,89 @@
+  422  usermod -aG wheel testuser1
+  423  sudo usermod -aG wheel testuser1
+  424  getent group wheel
+  425  pwd
+  426  man ls
+  427  man pwd
+  428  man man
+  429  info ls
+  430  ls -info
+  431  whatis ls
+  432  mkdir testing
+  433  cd testing
+  434  ls
+  435  pwd
+  436  ls /home/nick0der
+  437  ls -a /home/nick0der
+  438  cat /etc/passwd
+  439  cat > myfile
+  440  ls
+  441  ls -a > anotherfile
+  442  ls
+  443  cat anotherfile
+  444  mkdir subdirectory
+  445  cd subdirectory
+  446  cat > subfile
+  447  cp '/home/nick0der/testing/myfile' subfile
+  448  cat subfile
+  449  cd
+  450  mkdir testing1
+  451  cp -r subdirecroty testing1
+  452  cp -r '/home/nick0der/testing/subdirectory' testing1
+  453  cd testing1
+  454  ls
+  455  cd
+  456  cd testing
+  457  rm anotherfile
+  458  ls
+  459  rm -r subdirectory
+  460  ls
+  461  mv myfile renamedfile
+  462  mv renamedfile '/home/nick0der/testing1'
+  463  ls
+  464  cd testing1
+  465  cd
+  466  cd testing1
+  467  ls
+  468  ls -l renamedfile
+  469  chown testuser1 renamedfile
+  470  sudo chown testuser1 renamedfile
+  471  ls -l renamedfile
+  472  chgrp wheel renamedfile
+  473  sudo chgrp wheel renamedfile
+  474  ls -l renamedfile
+  475  ls -al
+  476  ls -al renamedfile
+  477  sudo chmod [g] {+} [r] renamedfile
+  478  sudo chmod [a] {+} [r] renamedfile
+  479  --help
+  480  chmod --help
+  481  chmod a+r renamedfile
+  482  sudo chmod a+r renamedfile
+  483  cd
+  484  git clone https://github.com/oyakivchik/devops_practice.git
+  485  git remote -v
+  486  cd devops_practice
+  487  git remote -v
+  488  git branch
+  489  git branch mykola-popyk-343
+  490  ls
+  491  nano CODEOWNERS
+  492  nano README.md
+  493  git add .
+  494  git commit -m "Changing content of files"
+  495  git push origin mykola-popyk-343
+  496  history
+  497  git branch
+  498  git checkout mykola-popyk-343
+  499  ls
+  500  nano CODEOWNERS
+  501  nano README.md
+  502  ls
+  503  git add .
+  504  git commit -m "Changing content of files"
+  505  git push origin mykola-popyk-343
+  506  git branch
+  507  touch Lab1
+  508  history | tail -80
+  509  history | tail -88
+  510  history | tail -89 > Lab1
