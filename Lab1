@@ -1,0 +1,54 @@
+    1  rm -i /etc/.sudoers.tmp.swp
+    2  sudo rm -i /etc/.sudoers.tmp.swp
+    3  su protagonist
+    4  sudo ls -la /root
+    5  su cleanUser
+    6  cd ~/.ssh/
+    7  sudo nano authorized_keys
+    8  exit
+    9  sudo visudo
+   10  exit
+   11  cd ~/.ssh/
+   12  sudo nano authorized_keys
+   13  exit
+   14  sudo systemctl restart sshd
+   15  exit
+   16  sudo nano /etc/ssh/sshd_config
+   17  sudo systemctl restrt sshd
+   18  sudo systemctl restart sshd
+   19  exit
+   20  ip a
+   21  ip route
+   22  exit
+   23  sudo ls
+   24  who
+   25  sudo passwd cleanUser
+   26  pwd
+   27  man pwd
+   28  man man
+   29  info ls
+   30  ls -info
+   31  whatis ls
+   32  cd Documents
+   33  ls Documents
+   34  ls -a Documents
+   35  man man > manTest
+   36  cat manTest
+   37  ls -a > catTest
+   38  cat catTest manTest > catMan
+   39  cat > typeTest
+   40  mkdir newDir
+   41  cp catman catTest > newDir
+   42  mkdir newDir1
+   43  cp manTest typeTest > newDir1
+   44  mkdir uberDir | cp -r newDir newDir1 uberDir
+   45  rm typeTest catTest
+   46  rm -r newDir newDir1
+   47  mv catman scatman
+   48  mv scatman uberDir
+   49  chown cleanUser manTest
+   50  chgrp wheel uberDir
+   51  ls -al
+   52  chmod 700 manTest
+   53  man gcc 
+   54  history > Lab1
