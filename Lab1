@@ -1,0 +1,76 @@
+    1  sudo useradd tuser
+    2  passwd tuser
+    3  sudo passwd tuser
+    4  usermod -aG wheel tuser
+    5  sudo usermod -aG wheel tuser
+    6  cat etc/passwd
+    7  visudo
+    8  sudo visudo
+    9  sudo ls-la/root
+   10  history
+   11  ps -f
+   12  ps -ef
+   13  pwd
+   14  ls -al
+   15  mkdir Test
+   16  cd test
+   17  cd Test
+   18  touch testfile
+   19  cd /home
+   20  ls -l
+   21  ls -al
+   22  cd admin
+   23  ls -l
+   24  mkdir Test2
+   25  cp "/Test/testfile" Test2
+   26  cp /Test/testfile Test2
+   27  cd Test
+   28  cp testfile ~/Test2
+   29  cd ~
+   30  cd Test2
+   31  cd -l
+   32  ls -l
+   33  mv testfile ~/Test
+   34  cd ~/Test
+   35  ls -l
+   36  cd ~/Test2
+   37  ls -l
+   38  cd ~/Test
+   39  rm testfile
+   40  touch file
+   41  cat file
+   42  rm file
+   43  df
+   44  du
+   45  cd ~
+   46  getent group
+   47  sudo groupadd testgroup
+   48  sudo usermod -aG testgroup tuser
+   49  getent group
+   50  sudo deluser tuser testgroup
+   51  history
+   52  sudo groupdel testgroup
+   53  getent group
+   54  ls -ul
+   55  ls -ol
+   56  chown Test
+   57  chown --help
+   58  chown tuser Test
+   59  sudo chown tuser Test
+   60  ls -ul
+   61  echo Hello
+   62  rm -r Test2
+   63  ls -l
+   64  rm -r Test
+   65  ls -l
+   66  mkdir Labs
+   67  cd Labs
+   68  git config --global credential.helper store
+   69  git pull
+   70  git config --global user.name "AlexRedchuk"
+   71  history
+   72  git clone https://github.com/oyakivchik/devops_practice.git
+   73  cd devops_practice
+   74  git checkout -b oleksandr-redchuk-343
+   75  touch Lab1
+   76  history > Lab1
