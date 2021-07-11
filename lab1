@@ -1,0 +1,73 @@
+    1  sudo apt-get install openssh-server
+    2  ls -l /usr/bin/apt-get
+    3  locate apt-get
+    4  yum install openssh-server
+    5  hostname -I
+    6  service ssh status
+    7  sudo service ssh status
+    8  yum -y install openssh-server openssh-clients
+    9   chkconfig sshd on
+   10  service sshd start
+   11   netstat -tulpn | grep :22
+   12  ls -al ~/.ssh/id_*.pub
+   13  ssh-keygen -t rsa
+   14  ssh-copy-is
+   15  ssh-copy-id
+   16  cp /etc/sudoers ~/sudoers.bak
+   17  sudo visudo
+   18  yum -y install mc
+   19  cp /etc/sudoers /etc/sudoers.original
+   20  mcedit /etc/sudoers
+   21  su dmitry
+   22  sestatus
+   23  sed -i
+   24  sed -i "s/SELINUX=enforcing/SELINUX=disabled/" /etc/selinux/config
+   25  shutdown -r now
+   26  sestatus
+   27  sed -i
+   28  sed -i "s/SELINUX=enforcing/SELINUX=disabled/" /etc/selinux/config
+   29  shutdown -r now
+   30  mcedit /etc/sudoers
+   31  ls -al ~/.ssh/id_*.pub
+   32  ssh-keygen -t rsa
+   33  ssh-copy-id dmitry@localhost
+   34  ssh dmitry@localhost
+   35  ssh dmitry
+   36  ssh dmitry@localhost
+   37  exit
+   38  yum install git
+   39  git config --global user.name "D-Nemtsev"
+   40  su
+   41  git config --global user.email "nevs1199@gmail.com"
+   42  git config --list
+   43  git branch -a
+   44  git checkout -b dmytro-nemtsev-343ck
+   45  git init
+   46  git status
+   47  ls
+   48  git checkout -b
+   49  git brunch dmytro-nemtsev-434ck
+   50  git branch dmytro-nemtsev-343-ck
+   51  git clone repo.url
+   52  git clone repo_url
+   53  git clone https://github.com/oyakivchik/devops_practice
+   54  cd devops_practice/
+   55  ls
+   56  cat README.md 
+   57  git branch dmytro-nemtsev-343-ck
+   58  git checkout dmytro-nemtsev-343-ck
+   59  cat README.md
+   60  Дмитро Немцев 343-ск
+   61  cat README.md
+   62  git push origin dmytro-nemtsev-343-ck
+   63  git branch
+   64  git checkout dmytro-nemtsev-343-ck
+   65  ls
+   66  nano codeowners
+   67  nano readme.md
+   68  cat README.md
+   69  touch lab1
+   70  history
+   71  history | tail -65
+   72  history | tail -65 > lab1
+   73  history > lab1
