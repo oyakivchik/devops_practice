@@ -1,1 +1,1 @@
-# devops_practice
+Гліб Самошкін 341 
