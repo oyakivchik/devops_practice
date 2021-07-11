@@ -1,0 +1,8 @@
+access.log
+access_logs.db
+bin
+include
+lib
+lib64
+pip-selfcheck.json
+pyvenv.cfg
