@@ -1,0 +1,56 @@
+1 history
+2 sudo ls
+3 man pwd
+4 man man
+5 info ls
+6 ls -info
+7 whatis ls
+8 cd ..
+9 ls -l
+10 cd odics
+11 ls -a file
+12 ls -a > file
+13 ls
+14 Is -l
+15 cat file
+16 cat > file2
+17 cat file2
+18 mkdir mydir
+19 cp file file2 mydir
+20 cd mydir
+21 ls -l
+22 cd ..
+23 rm file
+24 mkdir delete_this
+25 ls
+24 mkdir delete_this
+25 ls
+26 rm -r delete_this
+27 ls -l
+28 cd mydir/
+29 mv file filel
+30 ls -l
+31 mv file1 ../odics
+32 ls -l
+33 cd ..
+34 ls -l
+35 cat odics
+36 ls -al
+37 history > history.txt
+38 ls -al
+39 cat history.txt
+40 sudo adduser testuser
+41 *
+42 ls -l
+43 chown testuser file2
+44 sudo chown testuser file2
+45 ls -l
+46 sudo chgrp testuser file2
+47 ls -l
+48 chmod 762 file2
+49 sudo chmod 762 file2
+50 ls -al
+51 umask
+52 umask 0004
+53 history
+54 history > Lab1.txt
