@@ -1,6 +1,8 @@
-def mediana(enter_list):
-    enter_list.sort()
-    return enter_list[1]
+import sys
 
-list_num = [int(input()) for i in range(3)]
-print("\n Median: ", mediana(list_num))
+def mediana(enter_list):
+    sorted_tuple = tuple(sorted(enter_list))
+    return sorted_tuple[1]
+
+tupl = sys.argv[1], sys.argv[2], sys.argv[3]
+print(mediana(tupl))
