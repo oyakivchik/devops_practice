@@ -1,8 +1,8 @@
 import sys
 
-def mediana(enter_list):
-    sorted_tuple = tuple(sorted(enter_list))
-    return sorted_tuple[1]
+def mediana(enter_tupl):
+    
+    return sum(enter_tupl)
 
-tupl = sys.argv[1], sys.argv[2], sys.argv[3]
+tupl = int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3])
 print(mediana(tupl))
