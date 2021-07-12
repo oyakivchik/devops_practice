@@ -1,0 +1,103 @@
+    1  su
+    2  useradd -n user
+    3  su
+    4  useradd -n test
+    5  cat /etc/passwd
+    6  sudoers
+    7  sudoers cd /etc/sedoers
+    8  visudo
+    9  su
+   10  useradd username
+   11  is -l
+   12  ls -l
+   13  su
+   14  [A
+   15  su
+   16  sudo passwd root
+   17  su
+   18  su admin
+   19  useradd nuser
+   20  useradd
+   21  sudo useradd newuser
+   22  su newuse
+   23  sudo passwd newuser
+   24  su newuser
+   25  pwd
+   26  help
+   27  help pwd
+   28  pwd
+   29  cd /home/admin/documents
+   30  cat test
+   31  cd /home/admin/Видео
+   32  cd
+   33  cd /home/admin/Видео
+   34  pwd
+   35  mkdir test
+   36  cd /home/admin/Видео/test
+   37  pwd
+   38  cd
+   39  pwd
+   40  ls
+   41  cd /home/admin/Видео/test
+   42  ls
+   43  cd
+   44  ls -al
+   45  cd ~
+   46  pwd
+   47  cat info.txt
+   48  ls list
+   49  ls /home/admin/Видео/test
+   50  ls -info
+   51  info ls
+   52  ls /home/admin/
+   53  ls -a
+   54  pwd
+   55  pwd
+   56  cat /home/admin/Lab1.txt
+   57  cat /home/admin/Lab1
+   58  cat /home/admin/
+   59  pwd
+   60  cat > info.txt
+   61  cat info.txt
+   62  cat /home/admin/data1
+   63  mkdir /home/admin/data1
+   64  ls
+   65  cp /home/admin/info.txt /home/admin/data1/info2.txt
+   66  cd /home/admin/data1/
+   67  ls
+   68  mv info2.txt info_new.txt
+   69  ls
+   70  cat info_new.txt 
+   71  man man
+   72  man cs
+   73  man cd
+   74  info ls
+   75  chown owner /home/admin/data1/info_new.txt 
+   76  chown admin /home/admin/data1/info_new.txt 
+   77  chown user /home/admin/data1/info_new.txt 
+   78  chown username /home/admin/data1/info_new.txt 
+   79  ls -l
+   80  ls -l info_new.txt 
+   81  cp info_new.txt info_user.txt 
+   82  psw
+   83  pwd
+   84  ls
+   85  chmod o-w-r info_user.txt 
+   86  ls -l info_new.txt 
+   87  ls -l info_user.txt 
+   88  cd
+   89  useradd newuser
+   90  useradd nuser
+   91* 
+   92  history Lab1.txt
+   93* 
+   94  umask
+   95  umask /home/admin/data1/info_user.txt 
+   96  cd /home/admin/data1/info_user.txt 
+   97  umask info_user.txt 
+   98  umask
+   99  fork() 0100
+  100  umask 0100
+  101  umask
+  102  umask 0002
+  103  history > Lab1.txt
