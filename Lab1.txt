@@ -1,0 +1,56 @@
+    1  sudo yum -y install openssh-server openssh-clients
+    2  sudo chkconfig sshd on
+    3  service sshd start
+    4  netstat -tulpn | grep :22
+    5  sudo yum install nano
+    6  sudo nano /etc/ssh/sshd_config
+    7  sudo service sshd restart
+    8  service sshd status
+    9  ssh-keygen
+   10  ssh-copy-id admin@localhost
+   11  sudo useradd -p password -s /bin/bash/ test
+   12  sudo nano /etc/sudoers
+   13  sudo useradd commander
+   14  sudo passwd commander
+   15  sudo usermod -aG wheel commander
+   16  sudo nano /etc/sudoers
+   17  cat /etc/passwd
+   18  sudo visudo
+   19  sudo ls -la /root
+   20  sudo chmod 0440 /etc/sudoers.d/crash
+   21  sudo chown -R crash:crash /home/crash/.ssh
+   22  sudo sed -i 's/#PermitRootLogin yes/PermitRootLogin no/g' \/etc/ssh/sshd_config sudo
+   23  systenctl restart sshd
+   24  history>Lab1.txt
+   25  pwd
+   26  cd /etc/
+   27  ls
+   28  pwd
+   29  help
+   30  cd ~
+   31  ls -al
+   32  cat > info.txt
+   33  mkdir data1
+   34  cp  data1 info.txt
+   35  cp info.txt data1/
+   36  cp data1/info.txt data1/info2.txt
+   37  mv data1/info2.txt data1/info_new.txt
+   38  ls -l data1/info_new.txt
+   39  cp data1/info_new.txt data1/info_user.txt
+   40  chmod u+rw data1/info_user.txt
+   41  ls -l data1/info_user.txt
+   42  sudo useradd -p password -s /bin/bash/ test123
+   43  sudo nano  useradd -p password -s /bin/bash/ test123
+   44  useradd -p password -s /bin/bash/ test123
+   45  cat /etc/passwd
+   46  sudo useradd commanderino
+   47  sudo nano /etc/sudoers
+   48  sudo useradd bicomcool
+   49  cat admin:///home/admin/data1
+   50  cat admin:///home/admin/data1/info_user.txt
+   51  cat /home/admin:///home/admin/data1/info_user.txt
+   52  cat home/admin/data1/info_user.txt
+   53  cat > new_file.txt
+   54  ls -l new_file.txt 
+   55  history
+   56  history>Lab1
