@@ -1,0 +1,99 @@
+    1  sudo yum install openssh-server
+    2  # sudo yum install openssh-server
+    3  #sudo yum install openssh-server
+    4  sudo yum install openssh-server
+    5  yum update -y
+    6  sudo yum update -y
+    7  putty
+    8  IFCONFIG
+    9  ifconfig
+   10  history
+   11  pwd
+   12  sudo yum -y update
+   13  sudo yum -y install git
+   14  which git
+   15  git --version
+   16  sudo yum install -y https://centos7.iuscommunity.org/ius-release.rpm
+   17  sudo yum install -y python36u python36u-libs python36u-devel python36u-pip
+   18  sudo yum install -y python
+   19  sudo yum install centos-release-scl
+   20  sudo yum install rh-python36
+   21  rpm -q centos-release
+   22  cat /etc/redhat-release
+   23  sudo dnf install python3
+   24  python3 --version
+   25  ls
+   26  ls -a
+   27  pwd
+   28  cd ~
+   29  ls -a
+   30  ls
+   31  pwd
+   32  cd ../
+   33  ls
+   34  pwd
+   35  cd home
+   36  ls
+   37  cd vlad
+   38  pwd
+   39  ls
+   40  ls -al
+   41  pwd
+   42  ls
+   43  cd ../
+   44  ls
+   45  echo $HOME
+   46  cd vlad/
+   47  cat info.txt
+   48  cat > info.txt
+   49  ls
+   50  cat info.txt 
+   51  ls
+   52  mkdir data1
+   53  ls
+   54  cp info.txt data1
+   55  ls
+   56  cd data1/
+   57  ls
+   58  cat info.txt
+   59  cd ../
+   60  cd data1/
+   61  cp info.txt info2.txt
+   62  ls
+   63  mv info2.txt info_new.txt
+   64  ls
+   65  ls -al
+   66  cp info_new.txt info_user.txt
+   67  ls
+   68  chmod 600 info_user.txt 
+   69  ls -al
+   70  history > Lab1.
+   71  ls
+   72  mv Lab1. Lab1
+   73  ls
+   74  cat Lab1
+   75  git
+   76  git config
+   77  git config --global
+   78  clear
+   79  ls
+   80  git config --global
+   81  git config --system
+   82  dnf install -y telegram-desktop
+   83  sudo dnf install -y telegram-desktop
+   84  git config --global user.name "Vlad"
+   85  git config --global user.email "komarenetsv@gmail.com"
+   86  git config --global user.name "qmarr"
+   87  cd ../
+   88  ls
+   89  mkdir practice
+   90  cd practice/
+   91  git clone https://github.com/oyakivchik/devops_practice
+   92  ls
+   93  cd devops_practice/
+   94  ls
+   95  git checkout
+   96  git checkout vlad-komarenets-341 
+   97  ls
+   98  history
+   99  history > Lab1
