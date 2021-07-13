@@ -1,6 +1,7 @@
-def mediana(enter_list):
-    enter_list.sort()
-    return enter_list[1]
+import sys
 
-list_num = [int(input()) for i in range(3)]
-print("\n Median: ", mediana(list_num))
+def mediana(enter_tupl):
+   return sum(x**2 for x in enter_tupl)   
+
+tupl = int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3])
+print(mediana(list(tupl)))
