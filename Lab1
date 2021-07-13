@@ -1,0 +1,276 @@
+sudo adduser home
+sudo passwd home
+sudo su
+ping 8.8.8.8
+sudo init 0
+top
+sudo pkill -u home
+top
+ps kbob
+ps(1)
+ps --help
+ps --help <s|l|o|t|m|a>
+ps
+ps kbob
+sudo ps kbob
+ps root
+ps axu
+exit
+sudo su
+sudo su
+exit
+sudo reboot
+ps -f
+du
+getend group
+getent group
+ls -la
+ls -l
+touch hello
+ls -l
+chmod kbob 
+mc
+chmod u + x hello
+chmod u+x hello
+ls -l
+sudo init 0
+ls -la
+rm hello
+ls -la
+pwd ; whoami
+toch test_script
+touch test_script
+ls -la
+cat > test_script #!/bin/bash
+ls -la
+mv test_script Documents
+ls -la
+cat .bash_history
+ps
+ls -la
+cd Documents
+ls -la
+cat test_script 
+nano test_script 
+cat test_script 
+nano test_script 
+test_script
+./test_script
+ls -la
+chmod u+x test_script 
+ls -la
+test_script
+./test_script
+chmod +x ./test_script 
+ls -la
+./test_script
+nano test_script 
+./test_script
+echo $SHELL
+nano test_script 
+./test_script
+$SHELL --version
+ls -la
+sudo su
+git --version
+ls
+cd Documents
+ls
+mkdir git_test
+ls
+cd git_test
+git init
+ls
+ls -la
+cd .git
+ls
+cd ..
+clear
+ls
+touch index.html
+ls
+ls -la
+nano index.html 
+cat index.html
+nano index.html 
+cat index.html
+s
+ls -la
+git status
+git add index.html 
+git status
+touch one_more.file
+nano one_more.file 
+cat one_more.file 
+touch errors.txt
+cat errors.txt 
+nano errors.txt 
+cat errors.txt 
+clear
+mkdir logs
+cd logs
+touch log1.txt
+nano log1.txt 
+cat log1.txt 
+cd ..
+whoami
+top
+ps
+exit
+init 0
+sudo init 0
+ls -la
+cat .bash_history
+ls -la
+cd ..
+ls
+rmdir test_dir
+rmdir --help
+man rmdir
+ls
+ls -la
+cd Documents/
+ls
+cd devops_practice/
+ls
+pwd
+ls -la
+exit
+sudo adduser home
+sudo passwd home
+sudo su
+ping 8.8.8.8
+sudo init 0
+top
+sudo pkill -u home
+top
+ps kbob
+ps(1)
+ps --help
+ps --help <s|l|o|t|m|a>
+ps
+ps kbob
+sudo ps kbob
+ps root
+ps axu
+exit
+sudo su
+sudo su
+exit
+sudo reboot
+ps -f
+du
+getend group
+getent group
+ls -la
+ls -l
+touch hello
+ls -l
+chmod kbob 
+mc
+chmod u + x hello
+chmod u+x hello
+ls -l
+sudo init 0
+ls -la
+rm hello
+ls -la
+pwd ; whoami
+toch test_script
+touch test_script
+ls -la
+cat > test_script #!/bin/bash
+ls -la
+mv test_script Documents
+ls -la
+cat .bash_history
+ps
+ls -la
+cd Documents
+ls -la
+cat test_script 
+nano test_script 
+cat test_script 
+nano test_script 
+test_script
+./test_script
+ls -la
+chmod u+x test_script 
+ls -la
+test_script
+./test_script
+chmod +x ./test_script 
+ls -la
+./test_script
+nano test_script 
+./test_script
+echo $SHELL
+nano test_script 
+./test_script
+$SHELL --version
+ls -la
+sudo su
+git --version
+ls
+cd Documents
+ls
+mkdir git_test
+ls
+cd git_test
+git init
+ls
+ls -la
+cd .git
+ls
+cd ..
+clear
+ls
+touch index.html
+ls
+ls -la
+nano index.html 
+cat index.html
+nano index.html 
+cat index.html
+s
+ls -la
+git status
+git add index.html 
+git status
+touch one_more.file
+nano one_more.file 
+cat one_more.file 
+touch errors.txt
+cat errors.txt 
+nano errors.txt 
+cat errors.txt 
+clear
+mkdir logs
+cd logs
+touch log1.txt
+nano log1.txt 
+cat log1.txt 
+cd ..
+whoami
+top
+ps
+exit
+init 0
+sudo init 0
+ls -la
+cat .bash_history
+ls -la
+cd ..
+ls
+rmdir test_dir
+rmdir --help
+man rmdir
+ls
+ls -la
+cd Documents/
+ls
+cd devops_practice/
+ls
+pwd
+ls -la
+exit
