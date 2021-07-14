@@ -1,6 +1,6 @@
 from sys import argv
 
-def number_of_divers(number):
+def number_of_divisors(number):
     counter = 0
     for i in range(1, number + 1):
         if number % i == 0:
@@ -8,4 +8,4 @@ def number_of_divers(number):
     return print(counter)
 
 task1, number = argv
-number_of_divers(int(number))
+number_of_divisors(int(number))
