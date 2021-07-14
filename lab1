@@ -1,0 +1,49 @@
+    1  sudo yum update -y
+    2  sudo yum install git -y
+    3  git --version
+    4  git config --global user.name "kamenskyh"
+    5  git config --global user.email "mariakamenskyh@gmail.com"
+    6  git config --last
+    7  git config --list
+    8  ls
+    9  git clone https://github.com/oyakivchik/devops_practice
+   10  cd devops_practice
+   11  ls
+   12  vi README.md
+   13* 
+   14  git branch
+   15  git push origin maria-kaluderovich-341
+   16  git branch
+   17  ls
+   18  vi README.md
+   19  git add .
+   20  pwd
+   21  man ls
+   22  info ls
+   23  ls -info
+   24  whatis ls
+   25  cd ..
+   26  ls devops_practice
+   27  ls -a devops_practice
+   28  cat>test.txt
+   29  cat test.txt
+   30  mkdir Test
+   31  cp test.txt test1.txt
+   32  cat test1.txt
+   33  rm test1.txt
+   34  ls
+   35  mv test.txt Test
+   36  ls Test
+   37  cd Test
+   38  chown owner test.txt
+   39  chmod a test.txt
+   40  chmod -a test.txt
+   41  chmod u+x test.txt
+   42  cp -r Test Test1
+   43  cd ..
+   44  cp -r Test Test1
+   45  ls
+   46  rm -r Test1
+   47  ls
+   48  cd devops_practice
+   49  history>lab1
