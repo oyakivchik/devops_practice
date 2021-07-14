@@ -1,0 +1,56 @@
+    1  sudo useradd -p password -s /bin/bash/ dmytro
+    2  sudo /etc/sudoers
+    3  sudo nano /etc/sudoers
+    4  useradd tuxfixer
+    5  sudo nano useradd tuxfixer
+    6  useradd tuxfixer
+    7  sudo nano /etc/sudoers
+    8  useradd tuxfixer
+    9  sudo yum -y install openssh-server openssh-clients
+   10  sudo chkconfig sshd on
+   11  service sshd start
+   12  netstat -tulpn | grep :22
+   13  sudo yumm install nano
+   14  sudo yum install nano
+   15  sodo nano /etc/ssh/sshd_config
+   16  sudo nano /etc/ssh/sshd_config
+   17  sudo service sshd restart
+   18  service sshd status
+   20  ssh-keygen
+   21  ssh-copy-id dmytro@localhost
+   22  pwd
+   23  cd /etc/
+   24  ls
+   25  pwd
+   26  cd ~
+   27  ls -al
+   28  cat info.txt
+   29  cat>info.txt
+   30  cat info.txt
+   31  mkdir data1
+   32  cp  data1 info.txt
+   33  cp info.txt data1/
+   34  cp data1/info.txt data1/info2.txt
+   35  mv data1/info2.txt data1/info_new.txt
+   36  ls -l data1/info_new.txt
+   37  cp data1/info_new.txt data1/info_user.txt
+   38  chmod u+rw data1/info_user.txt
+   39  ls -l data1/info_user.txt
+   40  sudo useradd -p password -s /bin/bash/ dmytro123
+   41  sudo nano  useradd -p password -s /bin/bash/ dmytro123
+   42  useradd -p password -s /bin/bash/ dmytro123
+   43  cat /etc/passwd
+   44  w
+   45  useradd tuxfixer
+   46  sudo useradd tuxfixer
+   47  suno nano /etc/sudoers
+   48  sudo nano /etc/sudoers
+   49  sudo useradd tuxfixer
+   50  useradd -p password -s /bin/bash/ dmytro123
+   51  cat admin:///home/dmytro/data1
+   52  cat admin:///home/dmytro/data1/info_user.txt
+   53  cat /home/dmytro:///home/dmytro/data1/info_user.txt
+   54  cat home/dmytro/data1/info_user.txt
+   55  cat>new_file.txt
+   56  ls -l new_file.txt 
+   57  history>Lab1
