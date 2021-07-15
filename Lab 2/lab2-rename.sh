@@ -15,4 +15,3 @@ do
 fi
 done 
 ls 
-cd ~
