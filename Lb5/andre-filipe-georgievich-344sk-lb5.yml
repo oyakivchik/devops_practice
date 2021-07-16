@@ -1,16 +1,17 @@
 name: Andre-Filipe-Georgievich-344sk-lb5
 
-on: workflow_dispatch
+on:
+  workflow_dispatch
 
 jobs:
-    Lb5-CI-CD-script:
+    build:
         runs-on: ubuntu-latest
 
         steps:
           - name: Cloning the repository
             uses: actions/checkout@v2
 
-      		- name: Installing the Python
+          - name: Installing the Python
             uses: actions/setup-python@v2
             with:
               python-version: 3.6
