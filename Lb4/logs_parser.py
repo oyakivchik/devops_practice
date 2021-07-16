@@ -27,12 +27,8 @@ conn = engine.connect()
 #opening file "access.log" for "read"
 f = open(sys.argv[1],'r') #'access.log'
 
-i = 0
 #loop through all lines
 for line in f:
-    if i == 2000:
-        break
-    i += 1
     validation = re.compile(r'^((Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}\s+\d{2}:\d{2}:\d{2})\s+(\S+)\s+(sshd)\S+:\s+(.*?(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}).*)$').search(line)
     if validation:
         print(validation)
