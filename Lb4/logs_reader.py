@@ -19,13 +19,13 @@ access_logs = Table(
 #create table
 meta.create_all(engine)
 
-#connect to data base
+#connect to database
 conn = engine.connect()
 
 #selec all form "access_logs" table
 sel = select(access_logs)
 
-#select all data from data base
+#select all data from database
 result = conn.execute(sel)
 
 print(result)

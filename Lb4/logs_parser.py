@@ -2,6 +2,7 @@
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, DateTime
 from datetime import datetime
 import re
+import sys
 
 #creating_engine
 engine = create_engine('sqlite:///access.db', echo=False)
@@ -20,11 +21,11 @@ access_logs = Table(
 #create table
 meta.create_all(engine)
 
-#connect to data base
+#connect to database
 conn = engine.connect()
 
 #opening file "access.log" for "read"
-f = open('access.log','r')
+f = open(sys.argv[1],'r') #'access.log'
 
 #loop through all lines
 for line in f:
@@ -46,7 +47,7 @@ for line in f:
 #closing the file "access.log"
 f.close()
 
-#inserting data to data base
+#inserting data to database
 result = conn.execute(ins)
 
 #closing the connection
