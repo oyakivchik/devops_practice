@@ -1,0 +1,141 @@
+    1  yum install git
+    2  sudo yum install git
+    3  git config
+    4  git config --global user.name EverlastingMiracle
+    5  git config --global user.email llachesis.mutas@gmail.com
+    6  git config --list
+    7  git clone https://github.com/EverlastingMiracle/centtest.git
+    8  cd centtest
+    9  sudo nano README.md
+   10  git add README.md
+   11  git commitwww
+   12  git commit
+   13  git push
+   14  git branch
+   15  git branch myroslav-platanovskyi-341sk
+   16  git branch
+   17  git checkout myroslav-platanovsky-341sk
+   18  git branch -d myroslav-platanovskyi-341sk
+   19  git checkout -b myroslavp
+   20  git push origin myroslavp
+   21  sudo nano README.md
+   22  git connit
+   23  git commit
+   24  git add README.md
+   25  git commit
+   26  git push
+   27  history
+   28  //
+   29  cd..
+   30  cd ..
+   31  ll
+   32  cd centtest
+   33  ll
+   34  re -f -r centtest
+   35  rm -rf centtest
+   36  cd ..
+   37  rm -rf centtest
+   38  ll
+   39  git clone https://github.com/oyakivchik/devops_practice.git
+   40  cd devops_practice
+   41  ll
+   42  git checkout -b myroslav-platanovskyi-341sk
+   43  sudo nano README.md
+   44  git add README.md
+   45  git commit
+   46  git push
+   47  git push origin myroslav-platanovskyi-341sk
+   48  history
+   49  sudo nano .bash_history
+   50  history
+   51  history -w
+   52  yum install git
+   53  sudo yum install git
+   54  git config
+   55  git config --global user.name EverlastingMiracle
+   56  git config --global user.email llachesis.mutas@gmail.com
+   57  git config --list
+   58  git clone https://github.com/EverlastingMiracle/centtest.git
+   59  cd centtest
+   60  sudo nano README.md
+   61  git add README.md
+   62  git commitwww
+   63  git commit
+   64  git push
+   65  git branch
+   66  git branch myroslav-platanovskyi-341sk
+   67  git branch
+   68  git checkout myroslav-platanovsky-341sk
+   69  git branch -d myroslav-platanovskyi-341sk
+   70  git checkout -b myroslavp
+   71  git push origin myroslavp
+   72  sudo nano README.md
+   73  git connit
+   74  git commit
+   75  git add README.md
+   76  git commit
+   77  git push
+   78  history
+   79  //
+   80  cd..
+   81  cd ..
+   82  ll
+   83  cd centtest
+   84  ll
+   85  re -f -r centtest
+   86  rm -rf centtest
+   87  cd ..
+   88  rm -rf centtest
+   89  ll
+   90  git clone https://github.com/oyakivchik/devops_practice.git
+   91  cd devops_practice
+   92  ll
+   93  git checkout -b myroslav-platanovskyi-341sk
+   94  sudo nano README.md
+   95  git add README.md
+   96  git commit
+   97  git push
+   98  git push origin myroslav-platanovskyi-341sk
+   99  history
+  100  sudo nano .bash_history
+  101  history
+  102  history -w
+  103  ll
+  104  history -a
+  105  sudo ls
+  106  passwd
+  107  [and
+  108  pwd
+  109  cd ~
+  110  man mkdir
+  111  info ls
+  112  ls -infp
+  113  ls -info
+  114  whatis ls
+  115  ls -al
+  116  cat info.txt
+  117  cat info
+  118  cat > info.txt
+  119  umask 0004
+  120  cd devops_practice
+  121  history > Lab1.txt
+  122  sudo nano Lab1.txt
+  123  history
+  124  man ls
+  125  info ls
+  126  ls -info
+  127  whatis ls
+  128  cd ..
+  129  ls devops_practice
+  130  ls -a devops_practice
+  131  mkdir data2
+  132  cat > info.txt
+  133  cp info.txt data2/
+  134  cp data2/info.txt data2/info2.txt
+  135  mv data2/info2.txt data2/info_new.txt
+  136  ls -l data2/info_new.txt
+  137  cp data2/info_new.txt data2/info_user.txt
+  138  chmod u+rw data2/info_user.txt
+  139  ls -l data2/info_user.txt
+  140  cd devops_practice
+  141  history > Lab1
