@@ -1,12 +1,10 @@
 name: Andre-Filipe-Georgievich-344sk-lb5
 
-on:
+on: workflow_dispatch
     # push:
     #     branches:
     #       - andre-filipe-georgievich-344sk
-    workflow_dispatch:
-        branches:
-          - andre-filipe-georgievich-344sk
+    
 
 jobs:
     Lb5-CI-CD-script:
