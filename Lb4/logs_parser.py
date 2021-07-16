@@ -27,22 +27,26 @@ conn = engine.connect()
 #opening file "access.log" for "read"
 f = open(sys.argv[1],'r') #'access.log'
 
+i = 0
 #loop through all lines
 for line in f:
-    validation = re.findall('^((Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}\s+\d{2}:\d{2}:\d{2})\s+(\S+)\s+(sshd)\S+:\s+(.*?(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}).*)$',line)
+    if i == 2000:
+        break
+    i += 1
+    validation = re.compile(r'^((Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}\s+\d{2}:\d{2}:\d{2})\s+(\S+)\s+(sshd)\S+:\s+(.*?(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}).*)$').search(line)
     if validation:
         print(validation)
-        print('\n0 Date:',validation[0][0])
-        print('\n1 Month:',validation[0][1])
-        print('\n2 Something:',validation[0][2])
-        print('\n3 Hostname:',validation[0][3])
-        print('\n4 Message:',validation[0][4])
-        print('\n5 Ip address:',validation[0][5])
+        print('\n0: ',validation.group(0))
+        print('\n1: ',validation.group(1))
+        print('\n2: ',validation.group(2))
+        print('\n3: ',validation.group(3))
+        print('\n4: ',validation.group(4))
+        print('\n5: ',validation.group(5))
+        print('\n6: ',validation.group(6))
         ins = access_logs.insert().values(
-            hostname= validation[0][3],
-            ip_address= validation[0][5],
-            message= validation[0][4])
-#        print(ins.compile().params) #inserted data
+            hostname= validation.group(3),
+            ip_address= validation.group(6),
+            message= validation.group(5))
 
 #closing the file "access.log"
 f.close()
