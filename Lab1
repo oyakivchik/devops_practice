@@ -1,0 +1,77 @@
+    1  mkdir desktop
+    2  ls -la
+    3  ls -l
+    4  touch hello
+    5  ls -l
+    6  pwd
+    7  ?
+    8  man pwd
+    9  cd
+   10  ls
+   11  ls -l
+   12  ls
+   13  cd hello
+   14  cd Music
+   15  ls
+   16  pwd
+   17  cd
+   18  pwd
+   19  ls -al
+   20  cd
+   21  pwd
+   22  cat > info.txt
+   23  pwd
+   24  ls -l
+   25  ls
+   26  cd data1
+   27  mkdir data1
+   28  ls
+   29  cp info.txt data1
+   30  cd data1
+   31  ls
+   32  cp info.txt
+   33  cp --help
+   34  cp info.txt data1
+   35  ls
+   36  ls -l
+   37  ls -al
+   38  mv data1 text2.txt
+   39  ls
+   40  mv text2.txt info2.txt
+   41  ls
+   42  mv info2.txt info_new.txt
+   43  ls
+   44  ls -l
+   45  ls -al
+   46  mv info_new.txt info_user.txt
+   47  ls
+   48  chown owner info_user.txt
+   49  chown omoskaliuk info_user.txt
+   50  chown omoskaliuk:adm info_user.txt
+   51  sudo chown omoskaliuk:adm info_user.txt
+   52  sudo chown omoskaliuk: info_user.txt
+   53  ls -l
+   54  ls -al
+   55  chmod 0600 info_user.txt 
+   56  ls -al
+   57  sudo adduser test_user1
+   58  su test_user1
+   59  sudo passwd test_user1 
+   60  su test_user1
+   61  ls -l
+   62  cd
+   63  cd desktop/
+   64  ls -l
+   65  ls -al
+   66  ls
+   67  la -la
+   68  la -al
+   69  ls -la
+   70  history > Lab1
+   71  ls
+   72  ls -al
+   73  cd
+   74  history
+   75  cd Desctop
+   76  cd Desktop/
+   77  history > Lab1
