@@ -1,0 +1,127 @@
+    1  sudo yum -y install openssh-server openssh-clients
+    2  sudo chkconfig sshd on
+    3  service sshd start
+    4  netstat -tulpn | grep :22
+    5  sudo yum install nano
+    6  sudo nano etc/ssh/sshd_config
+    7  sudo service sshd restart
+    8  service sshd status
+    9  ssh-keygen
+   10  ssh-copy-id devops@local
+   11  ssh-keygen
+   12  ssh-copy-id devops@local
+   13  ssh-copy-id devops@22
+   14  ssh-copy-id devops@
+   15  cat
+   16  ssh-copy-id devops@localhost
+   17  cat ~/.ssh/id_rsa.pub | ssh devops@localhost "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+   18  Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+   19  sudo service sshd restart
+   20  ssh-copy-id devops@localhost
+   21  sudo service sshd restart
+   22  sudo systemctl restart sshd
+   23  ssh-copy-id devops@localhost
+   24  sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
+   25  sudo systemctl restart sshd
+   26  ssh-copy-id devops@localhost
+   27  sudo service sshd restart
+   28  ssh-copy-id devops@localhost
+   29  ssh-keygen
+   30  ssh-copy-id devops@localhost
+   31  sudo ssh-copy-id devops@localhost
+   32  ssh-copy-id devops@localhost
+   33  cat ~/.ssh/id_rsa.pub | ssh devops@localhost "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+   34  chmod +x rar
+   35  chmod +x
+   36  chmod +x ~
+   37  cat ~/.ssh/id_rsa.pub | ssh devops@localhost "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+   38  chmod 600 authorizedkeys
+   39  ssh -i /home/devops/.ssh/id_rsa devops@localhost
+   40  ssh -i /home/devops/.ssh/id_rsa devops@localhost 123.123.123.123
+   41  sudo ls
+   42  passwd
+   43  1q4r2w3e
+   44  passwd
+   45  shell
+   46  pwd
+   47  ..
+   48  man
+   49  help
+   50  man ls
+   51  info ls
+   52  whatis whatis ls
+   53  cd root
+   54  ls
+   55  cd Видео
+   56  //
+   57  ./
+   58  /.
+   59  can file.txt
+   60  cat file.txt
+   61  cd /
+   62  cd .
+   63  cd ~
+   64  cd Документы
+   65  cat file.txt
+   66  ls =a
+   67  ls -a
+   68  la -a > file2.txt
+   69  ls -a > file2.txt
+   70  cat > file.txt
+   71  mkdir
+   72  mkdir Документы
+   73  cp file2.txt
+   74  cp file2.txt file3.txt
+   75  cat file3.txt
+   76  cp -r Документы Folder
+   77  rm file3.txt
+   78  ls
+   79  mv file2.txt file4.txt
+   80  ls
+   81  chmod a+rwx file4.txt
+   82  history>Lab1
+   83  clear
+   84  yum install git
+   85  su
+   86  whoiam
+   87  su -
+   88  sudo yum install git
+   89  git config --global user.name 'Gulyy76'
+   90  git config --global user.email 'thenikcd@gmail.com'
+   91  got config --global core.autocrlf inpuit
+   92  got config --global core.autocrlf input
+   93  git config --global core.autocrlf input
+   94  git config --global core.safecrlf warn
+   95  git
+   96  git branch
+   97  git add Lab1.txt
+   98  git status
+   99  git init
+  100  git pull
+  101  git clone
+  102  git clone devops_practice/nikita-choban-341
+  103  git clone github.com/oyakivchik/devops_practice/nikita-choban-341
+  104  Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+  105  git@github.com:oyakivchik/deops_practice.git
+  106  git@github.com:oyakivchik/devops_practice.git
+  107  git --version
+  108  git config --global user.name 'Gulyy1406'
+  109  git config --global user.email 'thenikcd@gmail.com'
+  110  git config --list
+  111  ssh-agent
+  112  git@github.com:oyakivchik/devops_practice.git
+  113  git clone git@github.com:oyakivchik/devops_practice.git
+  114  ssh
+  115  git clone https://github.com/oyakivchik/devops_practice
+  116  ls
+  117  cd devops_practice
+  118  git checkout -b 'nikita-choban-341'
+  119  git branch
+  120  git push origin nikita-choban-341
+  121  ls
+  122  git add Lab1
+  123  git status
+  124  git commit -m 'Lab1'
+  125  git push origin nikita-choban-341
+  126  rm Lab1
+  127  history>Lab1
