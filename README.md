@@ -1,1 +1,1 @@
-# devops_practice
+# Oleh Moskaliuk 343sk
