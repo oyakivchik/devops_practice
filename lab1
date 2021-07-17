@@ -1,0 +1,243 @@
+    1  sudo yum -y install openssh-server openssh-clients
+    2  sudo chkconfig sshd on
+    3  servie sshd start
+    4  service ssh start
+    5  sudo yum -y install openssh-server openssh-clients
+    6  service sshd start
+    7  netstat -tulpn | grep :22
+    8  sudo nano /etc/ssh/sshd_config
+    9  sudo service sshd restart
+   10  service sshd status
+   11  ssh-keygen
+   12  ssh-copy-id user@localhost
+   13  sudo nano /etc/ssh/sshd_config
+   14  sudo systemctl restart sshd
+   15  ssh-copy-id user@localhost
+   16  sadasdasd
+   17  ssh-copy-id user@localhost
+   18  asdasd
+   19  ads
+   20  ad
+   21  a
+   22  dexit
+   23  service sshd status
+   24  ssh-keygen
+   25  ssh-copy-id user@localhost
+   26  sudo nano /etc/ssh/sshd_config
+   27  sudo systemctl restart sshd
+   28  ssh-copy-id user@localhost
+   29  sudo nano /etc/ssh/sshd_config
+   30  sudo systemctl restart sshd
+   31  ssh-copy-id user@localhost
+   32  sudo nano /etc/ssh/sshd_config
+   33  sudo systemctl restart sshd
+   34  ssh-copy-id user@localhost
+   35  ls -ld
+   36  ~/.ssh
+   37  cd home/user/.ssh
+   38  cd home/user/
+   39  cd home/user
+   40  cd ssh
+   41  cd .ssh
+   42  ls -ld
+   43  ls -ld authorized_keys
+   44  ls –ld authorized_keys
+   45  exit
+   46  netstat -tulp |grep :22
+   47  sudo chkconfig sshd on
+   48  service sshd start
+   49  netstat -tulp |grep :22
+   50  aervice sshd status
+   51  service sshd status
+   52  ssh-keygen
+   53  ssh-copy-id
+   54  ssh-copy-id user@localhost.localdomain
+   55  hostname -I
+   56  service sshd status
+   57  ssh-keygen
+   58  ssh-keygen
+   59  ssh-copy-id user@localhost
+   60  passwd
+   61  ssh-copy-id user@localhost
+   62  sudo nano /etc/ssh/sshd_config
+   63  sudo systemctl restart sshd
+   64  sudo nano /etc/ssh/sshd_config
+   65  sudo systemctl restart sshd
+   66  sudo nano /etc/ssh/sshd_config
+   67  sudo systemctl restart sshd
+   68   yum -y install policycorcutils-python
+   69  su
+   70  sudo yum -y install policycorcutils-python
+   71  sudo yum -y install policycoreutils-python
+   72  sudo nano /etc/ssh/sshd_config
+   73  sudo systemctl restart sshd
+   74  sudo nano /etc/ssh/sshd_config
+   75  sudo systemctl restart sshd
+   76  sudo nano /etc/ssh/sshd_config
+   77  semanage port -a -t ssh_port_t -p tcp 2222
+   78  sudo nano /etc/ssh/sshd_config
+   79  semanage port -a -t ssh_port_t -p tcp 22
+   80  sudo systemctl restart sshd
+   81  semanage port -a -t ssh_port_t -p tcp 22
+   82  sudo nano /etc/ssh/sshd_config
+   83  sudo semanage port -a -t ssh_port_t -p tcp 2222
+   84  service sshd restart
+   85  nmap localhost
+   86  sudo yum install nmap
+   87  nmap localhost
+   88  localhost -I
+   89  user -I
+   90  hostname -I
+   91  ssh keygen
+   92  ssh-keygen
+   93  ssh-copy-id user@localhost
+   94  service sshd status
+   95  sudo nano /etc/ssh/sshd_config
+   96  sudo systemctl restart sshd
+   97  ssh second@192.168.122.1
+   98  sudo nano /etc/ssh/sshd_config
+   99  sudo systemctl restart sshd
+  100  ssh second@192.168.122.1
+  101  ssh Serhii@217.196.161.22
+  102  git --version
+  103  git config --global user.name "Serhii"
+  104  git config --global user.email "balen.serhii@gmail.com"
+  105  git condig --list
+  106  git config --list
+  107  history
+  108  sudo ls
+  109  adduser testUser
+  110  sudo adduser testUser
+  111  sudo passwd testUser
+  112  userdel testUser
+  113  sudo userdel testUser
+  114  pwd
+  115  man pwd
+  116  info pwd
+  117  info ls
+  118  pwd -info
+  119  ls -info
+  120  whatis ls
+  121  cd
+  122  wpd
+  123  pwd
+  124  cd Documents
+  125  cd
+  126  cd Documents
+  127  cat > testDocument
+  128  pwd
+  129  cat testDocument
+  130  cd
+  131  mkdir devOpsPractice
+  132  cd devOpsPractice/
+  133  mkdir lab1
+  134  cd lab1/
+  135  cat > testForCopy
+  136  cp testDocument testForCopy 
+  137  cd Documents
+  138  cd
+  139  cd Documents
+  140  cp testDocument testForCopy /home/user/devOpsPractice/lab1/
+  141  cd
+  142  cd lab1
+  143  cd devOpsPractice/lab1/
+  144  rm testForCopy 
+  145  rm testDocument 
+  146  cp testDocument
+  147  cp testDocument test
+  148  cd
+  149  cd Documents/
+  150  cp testDocument test /home/user/devOpsPractice/lab1/
+  151  cp testDocument  /home/user/devOpsPractice/lab1/
+  152  cd
+  153  cd devOpsPractice/lab1/
+  154  chown second testDocument
+  155  sudo chown second testDocument
+  156  rm testDocument 
+  157  cp testDocument  /home/user/devOpsPractice/lab1/
+  158  cd
+  159  cd Documents/
+  160  cp testDocument  /home/user/devOpsPractice/lab1/
+  161  gcc testDocument 
+  162  cd
+  163  sudo yum -y install gcc
+  164  gcc --version
+  165  sudo yum -y installl gcc-c++
+  166  sudo yum -y install gcc-c++
+  167  cd Documents/
+  168  gcc testDocument 
+  169  ls -l testDocument 
+  170  sudo chgrp testGroup testDocument 
+  171  sudo groupadd testGroup
+  172  sudo usermod -a -G testGroup second
+  173  sudo usermod -a -G testGroup user
+  174  sudo chgrp testGroup testDocument 
+  175  ls -l testDocument 
+  176  chmod 760 testDocument
+  177  ls -l testDocument 
+  178  cd
+  179  cd devOpsPractice/
+  180  mkdir git
+  181  cd git
+  182  git clone https://github.com/oyakivchik/devops_practice.git
+  183  cd devops_practice/
+  184  git checkout -b serhii-balen-343
+  185  history
+  186  ls
+  187  cat README.md 
+  188  touch lab1
+  189  ls
+  190  history > lab1
+  191  git status
+  192  git add .
+  193  git status
+  194  git commit -m "Lab 1"
+  195  git push
+  196  git push --help
+  197  git config --global credential.helper store
+  198  git config --global user.name "balencode"
+  199  cd
+  200  cd git
+  201  cd devOpsPractice/git/
+  202  git clone https://github.com/oyakivchik/devops_practice.git
+  203  cd devops_practice/
+  204  git checkout -b serhii-balen-343
+  205  touch lab1
+  206  history > lab1
+  207  git add .
+  208  git commit -m "Lab 1"
+  209  git push
+  210  git push --help
+  211  git config --global push.default matching
+  212  git push
+  213  git pull
+  214  git push origin serhii-balen-343
+  215  git pull origin serhii-balen-343
+  216  git push origin serhii-balen-343
+  217  git status
+  218  git commit -m "Lab 1"
+  219  git push origin serhii-balen-343
+  220  clear
+  221  cd
+  222  cd devOpsPractice/git/
+  223  git clone https://github.com/oyakivchik/devops_practice.git
+  224  cd devops_practice/
+  225  git pull origin serhii-balen-343
+  226  touch lab1
+  227  history > lab1
+  228  git status
+  229  git add .
+  230  git status
+  231  git commit -m "Lab 1"
+  232  git push origin serhii-balen-343
+  233  git push
+  234  clear
+  235  cd
+  236  cd devOpsPractice/git/
+  237  git clone https://github.com/oyakivchik/devops_practice.git
+  238  git checkout -b serhii-balen-343
+  239  cd devops_practice/
+  240  git checkout -b serhii-balen-343
+  241  git pull origin serhii-balen-343
+  242  touch lab1
+  243  history > lab1 
