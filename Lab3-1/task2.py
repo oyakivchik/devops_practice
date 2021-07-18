@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 
 from sys import argv
 from re import match
@@ -15,7 +15,7 @@ def sumOfSquares(nums):
             _sum += (pow(float(num), 2))
 
     if len(_numbers):
-        print('The sum of the squares of the ' + ", ".join(_numbers) + ' is ' + str(_sum))
+        print(f'The sum of the squares of the {", ".join(_numbers)} is {_sum}')
     else:
         print('No numeric parameters received')
 
