@@ -1,0 +1,44 @@
+1	
+2	sudo
+3	sudo apt-get install openssh-server
+4	sudo yum -y install openssh-server openssh-clients
+5	sudo chkconfig sshd on
+6	service sshd start
+7	netstat -tulpn | grep :22
+8	sudo netstat -tulpn | grep :22
+9	apt-get install openssh-server
+10 	service ssh status
+11 	sudo yum install nano
+12 	sudo nano /etc/ssh/sshd_gonfig
+13	sudo service sshd restart
+14 	service sshd status
+15	service ssh status
+16	sudo service ssh restart
+17 	hostname -I
+18 	sudo nano /etc/ssh/sshd_gonfig
+19	sudo service sshd restart
+20 	service sshd status
+21	sshd -p 2000 larik@localhost
+22	passwd larik
+23	sudo bash
+24 	sudo -s
+25	mkdir UserDir
+26	ls	
+27	mv user_file UserDir
+28 	ls	
+29	ls UserDir	
+30 	history > user_file
+31	cat user_file
+32	chmod a + rwx user_file
+33	chmod -a + rwx user_file
+34	chmod 762 user_file
+35 	ls UserDir
+36 	ls -al
+37	chmod 777 user_file
+38	ls -al
+39	history > history.txt
+40	cp history.txt copy_history.txt
+41	ls UserDir
+42	mv history.txt copy_history.txt UserDir
+43	ls UserDir
+44	history > history.txt
