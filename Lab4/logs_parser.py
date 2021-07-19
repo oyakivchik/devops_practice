@@ -30,10 +30,3 @@ for entry in file:
 result = conn.execute(access_logs.insert(None), logs_entries)
 file.close()
 conn.close()
-
-
-
-
-
-
-conn.close()
