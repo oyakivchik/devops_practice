@@ -1,1 +1,1 @@
-# devops_practice
+# Vinnichenko Oleksandr CH-21
