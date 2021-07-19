@@ -1,0 +1,33 @@
+    1  yum install git
+    2  usermod -aG wheel pozi7ivv
+    3  usermod -aG wheel usrname
+    4  su - root
+    5  yum install git
+    6  sudo yum install git
+    7  git config --global user.name "pozi7ivv"
+    8  git config --global user.email "positivinho77@gmail.com"
+    9  git clone https://github.com/oyakivchik/devops_practice.git
+   10  git branch
+   11  git remote
+   12  git status
+   13  git -version
+   14  git -v
+   15  git --version
+   16  git config --list
+   17  git branch
+   18  cd devops_practice
+   19  git branch
+   20  git status
+   21  git checkout -b yurii-revutskyi-341sk
+   22  git branch
+   23  ls
+   24  sudo nano README.md
+   25  yum install nano
+   26  sudo yum install nano
+   27  sudo nano README.md
+   28  sudo
+   29  history
+   30  clear
+   31  history
+   32  ls
+   33  history > laba1.txt
