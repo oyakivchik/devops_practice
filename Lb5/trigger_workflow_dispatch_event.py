@@ -7,7 +7,6 @@ REPO = 'devops_practice'
 WORKFLOW_ID = 'andre-filipe-georgievich-344sk-lb5.yml'
 # WORKFLOW_ID = '11426921'
 
-
 headers = {
   'Accept': 'application/vnd.github.v3+json',
   'Authorization': f'token {TOKEN}',
