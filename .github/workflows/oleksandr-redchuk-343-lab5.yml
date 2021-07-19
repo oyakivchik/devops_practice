@@ -6,6 +6,7 @@ on:
 jobs:
   logs-parser:
     runs-on: ubuntu-latest
+
   steps:
     - name: Checkput Repo
       uses: actions/checkout@v2
