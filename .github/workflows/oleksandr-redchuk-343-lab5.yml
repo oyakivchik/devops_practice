@@ -29,7 +29,5 @@ jobs:
 
       - name: Send email with ips
         run:
-          python3 Lab5/ip_email.py access_logs.db $TEST_USER_LOGIN $TEST_USER_PASS sanya.redchuk@gmail.com
-        env:
-          TEST_USER_LOGIN: ${{ secrets.TEST_USER_LOGIN }}
-          TEST_USER_PASS: ${{ secrets.TEST_USER_PASS }}
+          python3 Lab5/ip_email.py access_logs.db dev.tests.112@gmail.com test1234--- sanya.redchuk@gmail.com
+
