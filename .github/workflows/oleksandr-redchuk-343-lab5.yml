@@ -7,29 +7,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkput Repo
-      uses: actions/checkout@v2
+    steps:
+      - name: Checkput Repo
+        uses: actions/checkout@v2
 
-    - name: Download logfile
-      run: wget https://gitlab.com/oyakivchik/logfile/-/raw/main/access.log
+      - name: Download logfile
+        run: wget https://gitlab.com/oyakivchik/logfile/-/raw/main/access.log
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 
  
-    - name: Install dependencies
-      run: |
-        python3 -m pip install --upgrade pip
-        if [ -f Lab5/requirements.txt ]; then pip install -r Lab5/requirements.txt: fi
-    - name: Parse access.log
-      run: 
-        python3 Lab5/log_parser.py access.log
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          if [ -f Lab5/requirements.txt ]; then pip install -r Lab5/requirements.txt: fi
+      - name: Parse access.log
+        run: 
+          python3 Lab5/log_parser.py access.log
 
-    - name: Send email with ips
-      run:
-        python3 Lab5/ip_email.py access_logs.db $TEST_USER_LOGIN $TEST_USER_PASS sanya.redchuk@gmail.com
-      env:
-        TEST_USER_LOGIN: ${{ secrets.TEST_USER_LOGIN }}
-        TEST_USER_PASS: ${{ secrets.TEST_USER_PASS }}
+      - name: Send email with ips
+        run:
+          python3 Lab5/ip_email.py access_logs.db $TEST_USER_LOGIN $TEST_USER_PASS sanya.redchuk@gmail.com
+        env:
+          TEST_USER_LOGIN: ${{ secrets.TEST_USER_LOGIN }}
+          TEST_USER_PASS: ${{ secrets.TEST_USER_PASS }}
