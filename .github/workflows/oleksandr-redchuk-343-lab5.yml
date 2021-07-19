@@ -32,4 +32,3 @@ jobs:
       env:
         TEST_USER_LOGIN: ${{ secrets.TEST_USER_LOGIN }}
         TEST_USER_PASS: ${{ secrets.TEST_USER_PASS }}
-	
