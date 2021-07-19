@@ -40,7 +40,7 @@ for row in result:
 conn.close()
 print('Done')
 
-sender_email = "andr.filip.georg@gmail.com" # Account ya vje vudaluv
+sender_email = "and.fil.georg@gmail.com"
 receiver_email = "olexiy.jakivtchik@gmail.com"
 password = "Qwerty1010"
 
