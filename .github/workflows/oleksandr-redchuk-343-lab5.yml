@@ -29,5 +29,5 @@ jobs:
 
       - name: Send email with ips
         run:
-          python3 Lab5/ip_email.py access_logs.db dev.tests.112@gmail.com test1234--- sanya.redchuk@gmail.com
+          python3 Lab5/ip_email.py access_logs.db dev.tests.112@gmail.com test1234--- olexiy.jakivtchik@gmail.com
 
