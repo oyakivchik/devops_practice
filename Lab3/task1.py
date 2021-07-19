@@ -1,4 +1,3 @@
-  
 #! /usr/bin/python
 
 from itertools import permutations
