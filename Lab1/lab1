@@ -1,0 +1,32 @@
+    1  git
+    2  python3
+    3  man ls
+    4  ls
+    5  rm hello.py
+    6  cat > hello.txt
+    7  cat hello.txt
+    8  nano word.py
+    9  word.py
+   10  pwd
+   11  cd lol
+   12  cd ~
+   13  whoami
+   14  ls -al
+   15  cat > info.txt
+   16  mkdir data1
+   17  cp info.txt data1
+   18  cd data1
+   19  cp info.txt info_new.txt
+   20  ls -l info_new.txt
+   21  chmod u+rw info_user
+   22  chmod u+rw info_new.txt
+   23  cd ~
+   24  ls
+   25  git clone https://github.com/oyakivchik/devops_practice.git
+   26  ls
+   27  cd devops_practice
+   28  git checkout -b oleksandr-vinnichenko-CH-21
+   29  mkdir Lab1
+   30  cd lab1
+   31  cd Lab1
+   32  history>lab1
