@@ -1,0 +1,64 @@
+    1  pwd
+    2  ls
+    3  ls -a
+    4  cd > hello
+    5  ls
+    6  cd~
+    7  cd ~
+    8  cat > practice.txt
+    9  rm practice.txt 
+   10  ls
+   11  mkdir data1
+   12  cat > info.txt
+   13  cp info.txt data1
+   14  cd data1
+   15  cp info.txt info_new.txt
+   16  ls -l info_new.txt 
+   17  chmod u+rw info_user.txt
+   18  chmod u+rw info_new.txt
+   19  cd ~
+   20  ls
+   21  git
+   22  sudo yum install git python3
+   23  git clone https://github.com/oyakivchik/devops_practice.git
+   24  ls
+   25  cd devops_practice/
+   26  mkdir Lab1
+   27  cd Lab1
+   28  history > Lab1
+   29  ls
+   30  git add Lab1
+   31  git commit -m "Lab 1"
+   32  git checkout
+   33  git checkout -b diana-salanda-CH-22
+   34  git push origin diana-salanda-CH-22
+   35  git status
+   36  git add Lab1
+   37  git status
+   38  git add Lab1
+   39  git commit -m "Lab 1"
+   40  ls
+   41  cd //
+   42  cd ..
+   43  cd ~
+   44  ls
+   45  cd devops_practice/
+   46  ls
+   47  cd Lab1/
+   48  ls
+   49  git statis
+   50  git status
+   51  git add Lab1
+   52  git status
+   53  cd ~
+   54  rm -f *
+   55  rm -rf *
+   56  ls
+   57  git clone https://github.com/oyakivchik/devops_practice.git
+   58  ls
+   59  history
+   60  cd devops_practice/
+   61  ls
+   62  mkdir Lab1
+   63  cd Lab1
+   64  history > Lab1
