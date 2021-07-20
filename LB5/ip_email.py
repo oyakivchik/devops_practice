@@ -42,12 +42,19 @@ message["Subject"] = "LB5 GitHub Actions"
 message["From"] = sender_email
 message["To"] = receiver_email
 
-text =  """
-	Hi,
-	Here is 5's lab
-	"""
+html = f"""\
+<html>
+  <body>
+    <h3>Yevhenij_Barabolin_344SK</h3>
+    <hr/>
+    <ol>
+        {res_list}
+    </ol>
+  </body>
+</html>
+"""
 
-part1 = MIMEText(text, "plain")
+part1 = MIMEText(html, "html")
 
 message.attach(part1)
 
