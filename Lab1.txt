@@ -1,0 +1,103 @@
+1  apt-get install sudo -y
+    2  install apt
+    3  apt
+    4  apt-get
+    5  sudo dpkg -i apt.deb
+    6  wget
+    7  wget http://security.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.0.1ubuntu2.17_amd64.deb -O apt.deb
+    8  sudo dpkg -i apt.deb
+    9  apt-get install sudo -y
+   10  ls -l /usr/bin/apt-get
+   11   chmod +x /usr/bin/apt-get
+   12  apt-get install sudo -y
+   13  apt-get install sudo
+   14  sudo yum install sudo
+   15  sudo yum install apt.deb
+   16  sudo yum install dpkg
+   17  sudo yum install apt
+   18  sudo yum install apt-get
+   19  sudo yum install openssh-server
+   20  sudo service ssh status
+   21  sudo yum install openssh-server openssh-slients
+   22  sudo yum install openssh-server openssh-clients
+   23  sudo chkconfig sshd on
+   24  service sshd start
+   25  netstat -tulpn | grep :22
+   26  sudo yum install nano
+   27  sudo nano /etc/ssh/sshd_config
+   28  sudo service sshd restatrt
+   29  service sshd status
+   30  ssg-keygen
+   31  ssh-keygen
+   32  ssh-copy-id root@localhost
+   33  hostname -I
+   34  ssh -p 2200 ashenwgt@localhost
+   35  ssh -p 2200 root@localhost
+   36  ssh -p 2200 serhii@localhost
+   37  ssh -p 8000 serhii@localhost
+   38  git status
+   39  .git status
+   40  git branch
+   41  yum install git
+   42  git init
+   43  git status
+   44  git branch
+   45  git status
+   46  ls
+   47  git config --global
+   48  git config --global user.email serrerttt@gmail.com
+   49  git config --global user.name SerhiiMrr
+   50  ls
+   51  cd ~/.ssh
+   52  ls
+   53  ssh-agent
+   54  ssh -add ~/.ssh/sh-j4OHp9O7wMqy
+   55  ssh -add ~/.ssh/j4OHp9O7wMqy
+   56  eval "$(ssh-agent -s)"
+   57  ssh -add ~/40209
+   58  ls
+   59  cd id_rsa
+   60  ls
+   61  cd id_rsa.pub
+   62  ls
+   63  ssh-add ~/.ssh/j4OHp9O7wMqy
+   64  ssh-add ~/.ssh/id_rsa.pub
+   65  myssh
+   66  cat ~/.ssh/id_rsa.pub
+   67  git branch
+   68   cd
+   69  ls
+   70  cd 
+   71  ls
+   72  su programer
+   73  pwd
+   74  cat > info123.txt
+   75  mrdir data1
+   76  mkdir data1
+   77  cp info123.txt data1
+   78  ls
+   79  cd data1
+   80  ls
+   81  mv info123.txt info_new.txt
+   82  cp info_new.txt info_user.txt
+   83  ls
+   84  ls
+   85  chmod o-w-r info_user.txt 
+   86  ls -l info_new.txt 
+   87  ls -l info_user.txt 
+   88  cd
+   89  useradd newuser
+   90  useradd nuser
+   91* 
+   92  history Lab1.txt
+   93* 
+   94  umask
+   95  umask /home/admin/data1/info_user.txt 
+   96  cd /home/admin/data1/info_user.txt 
+   97  umask info_user.txt 
+   98  umask
+   99  fork() 0100
+   100  umask 0100
+   101  umask
+   102  umask 0002
+   103  history > Lab1.txt
