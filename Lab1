@@ -1,0 +1,192 @@
+    1  sudo
+    2  sudo ls
+    3  ls -l
+    4  history
+    5  passwd
+    6  history
+    7  pwd
+    8  man pwd
+    9  pwd help
+   10  man pwd
+   11  pwd --help
+   12  man pwd
+   13  pwd --version
+   14  man pwd
+   15  pwd --version...
+   16  pwd [--version]
+   17  pwd [--help]
+   18  man man
+   19  man [-C Documents]
+   20  man man
+   21  info pwd
+   22  ls -info
+   23  pwd -info
+   24  whatis ls
+   25  whatis pwd
+   26  ls
+   27  cd Public
+   28  ls
+   29  sudo ls
+   30  cd
+   31  ls Desktop
+   32  ls Downloads
+   33  ls Documents
+   34  ls -a Documents
+   35  cd Documents
+   36  nano text
+   37  ls Documents
+   38  cd
+   39  ls
+   40  ls Documents
+   41  ls doc
+   42  ls Documents/doc
+   43  cd Documents/doc
+   44  nano txt
+   45  cd Documents/doc
+   46  ls Documents/doc
+   47  ls
+   48  cat txt
+   49  nano txt
+   50  cat txt
+   51  nano text
+   52  cat txt text
+   53  cd
+   54  ls -a > Documents/doc/txt
+   55  cat Documents/doc/txt
+   56  cat > newText
+   57  cat newText
+   58  cd Documents/doc
+   59  txt < text
+   60  cat < text
+   61  cat text
+   62  mkdir subdocdir
+   63  cd subdocdir
+   64  cd hfh
+   65  ls > Documents/doc/txt
+   66  cd
+   67  ls > Documents/doc/txt
+   68  cat Documents/doc/txt
+   69  cat Documents/doc/subdocdit
+   70  cat Documents/doc/subdocdir
+   71  cd Documents/doc/subdocdir
+   72  cd Documents/doc
+   73  cd
+   74  cd Documents/doc
+   75  cp txt text
+   76  cat text
+   77  cat > text
+   78  cat text
+   79  cp txt text tt
+   80  cp txt text subdocdir
+   81  ls
+   82  cd subdocdir
+   83  ls
+   84  ls txt
+   85  ls text
+   86  cat text
+   87  cat txt
+   88  cd
+   89  cd Documents/doc
+   90  ls
+   91  cd ..
+   92  ls
+   93  cd doc
+   94  ls
+   95  cp -r subdocdir dd
+   96  ls
+   97  cd dd
+   98  ls
+   99  cd ..
+  100  cd .. ..
+  101  cd doc
+  102  history
+  103  cd ..
+  104  cp * doc
+  105  cd dox
+  106  cd doc
+  107  cp * doc
+  108  mkdir doc
+  109  cp * doc
+  110  ls *doc*
+  111  ls
+  112  rm text txt
+  113  ls
+  114  rm subdocdir
+  115  rm -r subdocdir
+  116  ls
+  117  cp doc doc1
+  118  cp -r doc doc1
+  119  ls
+  120  mv doc1 dd
+  121  ls
+  122  cd dd
+  123  ls
+  124  ls doc1
+  125  cd ..
+  126  cd..
+  127  cd ..
+  128  ді
+  129  ls
+  130  ls doc
+  131  cd doc
+  132  ls
+  133  ls doc
+  134  mv doc/t*xt dd
+  135  ls
+  136  ls doc
+  137  ls dd
+  138  ls
+  139  mc dd
+  140  nano dd
+  141  ls
+  142  ls -l
+  143  chown kateryna 1 2
+  144  chown kateryna 3 6
+  145  chown kateryna ddd dd
+  146  ls -l
+  147  chgrp group newgrp
+  148  chgrp newgrp dd doc
+  149  chgrp info
+  150  chgrp --help
+  151  krdir
+  152  chmod kateryna +2  chmod kateryna +2
+  153  ls
+  154  chmod kateryna +2 ddd
+  155  ls
+  156  chmod kateryna + 2 ddd
+  157  chmod kateryna 2 ddd
+  158  chmod a 2 ddd
+  159  chmod [a] 2 ddd
+  160  chmod [a] [2] ddd
+  161  chmod a 002 ddd
+  162  chmod a+x ddd
+  163  chmod a 002 ddd
+  164  chmod 002 ddd
+  165  cd ..
+  166  mkdir Lab3-1
+  167  cd Lab3-1
+  168  cat task1.py
+  169  nano task1.py
+  170  getuid
+  171  nano file.c
+  172  gcc file.c
+  173  file.c
+  174  cd
+  175  cd Documents
+  176  mkdir devops_summer_school
+  177  cd devops_summer_school
+  178  git clone https://github.com/oyakivchik/devops_practice.git
+  179  sudo apt install git-all
+  180  sudo dnf install git-all
+  181  dnf install git-all
+  182  sudo yum install git
+  183  git --version
+  184  git clone https://github.com/oyakivchik/devops_practice.git
+  185  ls
+  186  devops_practice
+  187  cd devops_practice
+  188  git checkout -b kateryna-voznyuk-343
+  189  git pull origin kateryna-voznyuk-343
+  190  ls
+  191  touch Lab1
+  192  history > Lab1
