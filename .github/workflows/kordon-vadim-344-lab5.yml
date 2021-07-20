@@ -10,6 +10,8 @@ jobs:
             uses: actions/setup-python@v2
             with:
               python-version: 3.6
+          - name: Checkout repository
+            uses: actions/checkout@v2
           - name: go to lab 5 dir
             run: cd Lab5
           - name: Install dependencies
