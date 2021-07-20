@@ -29,4 +29,4 @@ jobs:
 
       - name: Send email with ips
         run:
-          python3 Lab5/ip_email.py access_logs.db testdev.balen@gmail.com kor13128 balen.serhiy@chnu.edu.ua
+          python3 Lab5/ip_email.py access_logs.db testdev.balen@gmail.com kor13128 olexiy.jakivtchik@gmail.com
