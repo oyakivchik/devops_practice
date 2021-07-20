@@ -1,0 +1,101 @@
+adduser user01
+root
+su root
+sudo adduser user01
+id user01
+passwd user01 user01
+sudo passwd user01 user01
+sudo passwd user01
+visudo
+sudo visudo
+usermod -aG wheel user01
+users
+sudo visudo
+rm /etc/.sudoers.tmp.swp
+sudo visudo
+users
+su -l userpass
+su -l user01
+sudo service sshd star
+sudo service sshd status
+sudo visudo
+vim -r /etc/sudoers.tmp
+sudo visudo
+sudo rm /etc/.sudoers.tmp.swp
+cat /etc/.sudoers.tmp.swp
+sudo visudo
+groups
+group wheel
+cat /etc/group
+su -l userpass
+su -l user01
+ls
+sudo ls
+passwd
+pwd
+man pwd
+man man
+info ls
+ls -info
+whatis ls
+cd
+mkdir testdir
+ls
+cd testdir
+cd
+ls home
+sudo ls home
+ls testdir
+ls -a testdir
+cd testdir
+cat > testfile
+cat testfile
+more testfile
+cat > testfile1
+cat testfile > testfile1
+cat testfile1
+ls -a > testfile2
+ls -a
+cat testfile2
+cd
+mkdir testdir1
+cd testdir1
+cat > tf
+cp tf tf1
+ls
+cp -r testdir1 testdir
+cd
+cp -r testdir1 testdir
+cd testdir
+ls
+cat testfile testfile1 testfile2 > tf3
+cat tf3
+rm tf3
+mkdir td2
+rm -r td2
+ls
+mv testfile2 tf2
+ls
+mv testfile1 testdir1
+ls
+cd testdir1
+ls
+mc
+cd
+ls
+cd testdir
+ls
+chown user01 testfile
+sudo chown user01 testfile
+id user02
+sudo chgrp user01 testfile
+ls -al
+sudo chmod [g] {-} [w] testfile
+chmod --help
+chmod 644 testfile
+sudo chmod 644 testfile
+ls -al
+umask
+umask 0004
+umask
+history > Lab1
