@@ -1,5 +1,5 @@
 name: Myroslav-Platanovskyi-341sk-Lab5
-
+  
 on:
   workflow_dispatch:
 
