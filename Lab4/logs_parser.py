@@ -1,0 +1,54 @@
+from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, DateTime
+
+from datetime import datetime
+
+import re
+
+import sys
+
+
+
+
+enginer = create_engine('sqlite:///logs.db', echo=False)
+meta = MetaData()
+
+
+
+access_logs = Table(
+    'access_logs', meta,
+    Column('id',Integer,primary_key=True),
+    Column('hostname',String),
+    Column('ip_address',String),
+    Column('date_time',DateTime),
+    Column('message',String),
+)
+
+
+meta.create_all(enginer)
+
+
+conect = enginer.connect()
+
+
+data = open(sys.argv[1],'r') 
+
+nr= []
+
+
+for line in data:
+    validation = re.compile(r'^((Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}\s+\d{2}:\d{2}:\d{2})\s+(\S+)\s+(sshd)\S+:\s+(.*?(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}).*)$').search(line)
+    if validation:
+        nr.append({
+            "hostname" : validation.group(3),
+            "ip_address" : validation.group(6),
+            "date_time" : datetime.now(),
+            "message" : validation.group(5)
+            })
+
+
+
+data.close()
+
+result = conect.execute(access_logs.insert(),nr)
+
+conect.close()
