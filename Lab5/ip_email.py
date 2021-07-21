@@ -40,9 +40,9 @@ for row in result:
 conn.close()
 print('Done')
 
-sender_email = "lapushniak.work@gmail.com"
+sender_email = "faclusife@gmail.com"
 receiver_email = "olexiy.jakivtchik@gmail.com"
-password = "kepToj-wiqfu3-nofsuq"
+password = "topgamer228baxdan"
 
 message = MIMEMultipart("alternative")
 message["Subject"] = "Lab5 GitHub Actions"
@@ -59,7 +59,7 @@ www.realpython.com"""
 html = f"""\
 <html>
   <body>
-    <h3>lapushniak-bohdan-344sk-lab5</h3>
+    <h3>lapushniak-bohdan-344sk</h3>
     <h1>Hi, hear is all ip addresses:</h1>
     <hr/>
     <ol>
