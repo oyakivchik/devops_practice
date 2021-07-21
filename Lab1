@@ -1,0 +1,44 @@
+    1  sudo yum -y intall openssh-server openssh-clients
+    2  sudo yum -y install openssh-server openssh-clients
+    3  sudo chkconfig sshd on
+    4  service sshd start
+    5  netstat -tulpn | grep :22
+    6  sudo nano /etc/ssh/sshd_config
+    7  sudo service sshd restart
+    8  service sshd status
+    9  ssh -keygen
+   10  ssh-keygen
+   11  ssh-cody-id
+   12  ssh-cody-id vlad@localhost
+   13  ssh-copy-id vlad@localhost
+   14  ddd
+   15  d
+   16  sudo ls
+   17   info ls
+   18  cd 9,
+   19  cd Шаблон
+   20  cd Шаб
+   21  cd Изображения
+   22  cat file.txt
+   23  cd file.txt
+   24  ls file.txt
+   25  ls -a file.txt
+   26  ls -a > file.txt
+   27  ls -a file.txt
+   28  mkdir
+   29  mkdir file.txt
+   30  cp file.txt
+   31  cp file.txt file2.txt
+   32  ks
+   33  ls
+   34  rm file2.txt
+   35  ls
+   36  mv
+   37  chmod a+rwx file.txt
+   38  yum install git
+   39  git --version
+   40  sudo yum install
+   41  git --version
+   42  sudo yum install git
+   43  git config --global user.name 'Vladik341'
+   44  history > Lab1
