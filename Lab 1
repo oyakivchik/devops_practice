@@ -1,0 +1,57 @@
+ls
+man ls
+man pwd
+man man
+info ls
+ls -info
+whatis ls
+cd
+mkdir test1
+cd test
+ls
+pwd
+ls /home/ali
+ls -a /home/ali
+cat /etc/passwd
+cat > testfile1
+ls
+ls -a > testfile2
+ls
+cat testfile2
+mkdir testfolder2
+cd inside
+cat > insidefile
+cp '/home/ali/test1/testfile1' insidefile
+cat insidefile
+cd
+mkdir test2
+cp -r inside test2
+cp -r '/home/ali/tes1t/inside' test2
+cd test2
+ls
+cd
+cd test1
+rm testfile2
+ls
+rm -r inside
+ls
+mv testfile1 renamedfile
+mv renamedfile '/home/ali/test2'
+ls
+cd
+cd test2
+ls
+ls -l renamedfile
+sudo adduser testuser
+sudo chown testuser renamedfile
+ls -l renamedfile
+sudo chgrp wheel renamedfile
+ls -l renamedfile
+ls -al renamedfile
+sudo chmod [a] {+} [r] renamedfile
+--help
+chmod --help
+sudo chmod a+r renamedfile
+cd
+touch Lab1
+history > Lab1
