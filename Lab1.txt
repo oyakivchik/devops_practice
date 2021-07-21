@@ -1,0 +1,98 @@
+    1  mkdir -p ~/.ssh
+    2  chmod 700 ~/.ssh
+    3  cd ~/.ssh/
+    4  sudo nano authorized_keys 
+    5  exit
+    6  exit 
+    7  cd ~/.ssh/
+    8  sudo nano authorized_keys 
+    9  sudo systemctl restart sshd
+   10  ssh -p 2200 Bohdan@localhost
+   11  exit 
+   12  cd ~/.ssh/
+   13  sudo nano authorized_keys 
+   14  sudo systemctl restart sshd
+   15  exit
+   16  ls 
+   17  pwd 
+   18  man man 
+   19  info ls 
+   20  info ls 
+   21  ls -info
+   22  whatis ls 
+   23  whatis -ls 
+   24  cd
+   25  pwd
+   26  ls
+   27  ls -a
+   28  cd /home/documents 
+   29  cat > File1
+   30  cat File1
+   31  cat File2
+   32  cat > File2
+   33  cat File1 File2 > Res
+   34  cat Res
+   35  ls -a > New
+   36  cat New
+   37  history > Lab1
+   38  cat history 
+   39  cat Lab1
+   40  pwd 
+   41  history > Lab1
+   42  cat Lab1
+   43  mkdir trash
+   44  pwd
+   45  cd trash
+   46  cd ..
+   47  man mkdir 
+   48  cp File1 File2 
+   49  cat File2
+   50  cat File1
+   51  cp File1 File2 trash
+   52  cd trash 
+   53  ls 
+   54  cd ..
+   55  mkdir Test
+   56  cp -r trash Ookla
+   57  pwd
+   58  ls 
+   59  cd Ookla 
+   60  ls -a
+   61  cd ..
+   62  cp -r trash Test Ookla
+   63  rm File1
+   64  rm -r trash
+   65  ls
+   66  cat > File3
+   67  mv File3 Test
+   68  cd Test 
+   69  ls
+   70  cd ..
+   71  ls
+   72  mv File2 Test2
+   73  ls 
+   74  mv [S]* Test
+   75  cd Test
+   76  ls
+   77  cd ..
+   78  history > Lab1
+   79  cat Lab1
+   80  chown douglas Res
+   81  sudo chown douglas Res
+   82  man chgrp
+   83  ls
+   84  chgrp Test3 New
+   85  groups 
+   86  ls -al
+   87  chmod {+} [o] New
+   88  chmod --help
+   89  chmod u+x New
+   90  fork() SA
+   91  umask
+   92  getuid
+   93  getuid() das
+   94  getuid(void)
+   95  man gcc
+   96  gcc -info
+   97  gcc 
+   98  history > Lab1
