@@ -1,0 +1,33 @@
+    1  pwd
+    2  cd /etc/
+    3  ls
+    4  pwd
+    5  cd ~
+    6  ls -al
+    7  cat info.txt
+    8  cat>info.txt
+    9  cat info.txt
+   10  mkdir data1
+   11  cp data1 info.txt
+   12  cp info.txt data1/
+   13  cp data1/info.txt data1/info2.txt
+   14  mv data1/info2.txt data1/info_user.txt
+   15  ls -l data1/info_new.txt
+   16  cp data1/info_new.txt data1/info_user.txt
+   17  chmod u+rw data1/info_user.txt
+   18  ls -l data1/info_user.txt
+   19  sudo useradd -p password -s /bin/bash/ test123
+   20  cat /etc/passwd
+   21  w
+   22  useradd tuxfixer
+   23  sudo useradd tuxfixer
+   24  sudo nano /etc/sudoers
+   25  sudo useradd tuxfixer
+   26  sudo useradd -p password -s /bin/bash/ test123
+   27  cat admin:///home/andrii/data1
+   28  cat admin:///home/andrii/data1/info_user.txt
+   29  cat /home/andrii:///home/andrii/data1/info_user.txt
+   30  cat home/andrii/data1/info_user.txt
+   31  cat>new_file.txt
+   32  ls -l new_file.txt
+   33  history>Lab1
