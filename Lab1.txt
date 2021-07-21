@@ -1,0 +1,44 @@
+   1 cd ~
+   2 cat info.txt
+   3 cat > info.txt
+   4 ls -a
+   5 cd > data1
+   6 ls -a
+   7 rm data1
+   8 mkdir data1
+   9 mv info.txt data1
+   10 ls -a
+   11 cd data1
+   12 cp info.txt info2.txt
+   13 ls -a
+   14 mv info2.txt info_new.txt
+   15 ls -a
+   16 ls -l info_new.tst
+   17 ls -l info_new.txt
+   18 mv info_new.txt info_user.txt
+   19 ls -a
+   20 cp info_user.txt info_new.txt
+   21 chmod 700 info_user.txt
+   22 ls -l info_user.txt
+   23 useradd user
+   24 sudo useradd user
+   25 sudo su user
+   26 cat info_user.txt
+   27 cat > new.txt
+   28 cd ..
+   29 cd ~
+   30 cat > new.txt
+   31 ls -l new.txt
+   32 ls -al new.txt
+   33 ls -al
+   34 ls -al data1
+   35 ls -a
+   36 history > Lab1
+   37 cat Lab1
+   38 su admin
+   39 history > Lab1
+   40 cd data1
+   41 sudo cd data1
+   42 cd ~
+   43 cd data1
+   44 history > Lab1
