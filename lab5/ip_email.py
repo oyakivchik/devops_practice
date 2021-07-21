@@ -32,7 +32,7 @@ receiver_email = "olexiy.jakivtchik@gmail.com"
 password = "1234554321Vika!"
 
 message = MIMEMultipart("alternative")
-message["Subject"] = "123123"
+message["Subject"] = "Вікторія-Шишкіна-СН-31 Lab5"
 message["From"] = sender_email
 message["To"] = receiver_email
 
