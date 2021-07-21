@@ -9,7 +9,7 @@ filename = sys.argv[1]
 email = sys.argv[2]
 password = sys.argv[3]
 receiver = sys.argv[4]
-subject = 'Myroslav-Platanovkyi-341sk Lab5'
+subject = 'Oleg-Gluhoi-341ck Lab5'
 
 engine = create_engine('sqlite:///{}'.format(filename), echo = False)
 conn = engine.connect()
