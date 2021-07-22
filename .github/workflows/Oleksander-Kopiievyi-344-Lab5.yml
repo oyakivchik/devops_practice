@@ -16,7 +16,7 @@ jobs:
             uses: actions/setup-python@v2
             with:
               python-version: 3.6
-          - name: Change directory to "Lb5"
+          - name: Change directory to "Lab5"
             run: cd Lab5/
           - name: Install dependencies
             run: |
