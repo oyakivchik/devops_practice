@@ -54,7 +54,6 @@ html = f"""\
 <html>
   <body>
     <h3>Oleksandr-Kopiievyi-344-Lab5</h3>
-    <h1>Hi, hear is all ip addresses:</h1>
     <hr/>
     <ol>
         {res_list}
