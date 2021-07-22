@@ -1,6 +1,11 @@
 name: Oleksander-Kopiievyi-344-Lab5
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - Oleksander-Kopiievyi-344
+  pull_request:
+    branches:
+      - Oleksander-Kopiievyi-344
 jobs:
     build:
         runs-on: ubuntu-latest
