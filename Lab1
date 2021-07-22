@@ -1,0 +1,129 @@
+    1   sudo yum install openssh-serveri
+    2   exit
+    3   su
+    4   sudo
+    5   sudo yum install openssh-server
+    6   sudo systemctl start sshd
+    7   sudo service sshd start
+    8   sudo systemctl status sshd
+    9   sudo service sshd status
+   10   sudo systemctl enable sshd
+   11   firewall -cmd --zine=public --permanent --add-service=ssh
+   12   firewall-cmd --zine=public --permanent --add-service=ssh
+   13   firewall-cmd --zone=public --permanent --add-service=ssh
+   14   ssh admin@127.0.0.1
+   15   ssh admin@localhost
+   16   ssh admin@127.0.0.1
+   17   usermod -aG wheel username
+   18   sudo whoami
+   19   ls -|
+   20   ls /bin
+   21   ls -al
+   22   ls -al bin
+   23   ls -al /bin
+   24   su root
+   25   sudo service sshd status
+   26   sudo systemctl status sshd
+   27   sudo passwd
+   28   su
+   29   info ls
+   31  ls-info
+   32  ls -info
+   33  whatis ls
+   34  cd
+   35  mkdir test1
+   36  cd test
+   37  ls
+   38  pwd
+   39  ls/home/ali
+   40  ls /home/ali
+   41  ls -a /home/ali
+   42  cat /etc/passwd
+   43  cat > testfile1
+   44  history
+   45  cd test
+   46  ls
+   47  ls -a > testfile2
+   48  ls
+   49  cat testfile2
+   50  mkdir testfolder2
+   51  cd inside
+   52  cat > insidefile
+   53  history
+   54  cd test
+   55  ls
+   56  ls -a > testfile2
+   57  +cd test
+   58  +ls
+   59  history
+   60  cd test
+   61  ls
+   62  ls -a > testfile2
+   63  ls
+   64  cat testfile2
+   65  mkdir testfolder2
+   66  cd inside
+   67  cat > insidefile 
+   68  history
+   69  cd test
+   70  ls
+   71  ls -a > testfile2
+   72  ls
+   73  cat testfile2
+   74  mkdir testfolder2
+   75  cd inside
+   76  cat > insidefile
+   77  ls
+   78  man ls
+   79  man pwd
+   80  man man
+   81  info ls
+   82  ls -info
+   83  whatis ls
+   84  cd
+   85  mkdir test1
+   86  cd test
+   87  ls
+   88  pwd
+   89  ls /home/ali
+   90  ls -a /home/ali
+   91  cat /etc/passwd
+   92  cat > testfile1
+   93  history
+   94  cd test
+   95  ls
+   96  ls -a > testfile2
+   97  ls
+   98  cat testfile2
+   99  mkdir testfolder2
+  100  cd inside
+  101  cat > insidefile hala
+  102  cp '/home/ali/test1/testfile1' insidefile
+  103  cat insidefile hala
+  104  cd
+  105  mkdir test2
+  106  cp -r inside test2
+  107  cp -r '/home/ali/test1/inside' test2
+  108  cd test2
+  109  ls
+  110  cd
+  111   help
+  112   historys
+  113   exit
+  114   history
+  115   sudo yum install git
+  116   git config --global user.name "Vitia"
+  117   -ls
+  118   ls
+  119   cd
+  120   /
+  121   //
+  122   ls
+  123   cd..
+  124   cd ..
+  125   cd
+  126   ls
+  127   pwd
+  128   ls
+  129   cd ..
+   
