@@ -1,0 +1,32 @@
+    1  history
+    2  pwd
+    3  help
+    4  cd
+    5  ls
+    6  cd Documents/
+    7  cd git/
+    8  cd devops_practice/
+    9  pwd
+   10  cd ~
+   11  ls -al
+   12  cat info.txt
+   13  ls
+   14  cat>info.txt
+   15  ls
+   16  cat > info.txt
+   17  cat info.txt 
+   18  mkdir data1
+   19  cp info.txt data1/info2.txt
+   20  cd data1/
+   21  rn info2.txt info_new.txt
+   22  rename info2.txt info_new.txt
+   23  mv info2.txt info_new.txt
+   24  ls
+   25  ls-la
+   26  ls -al
+   27  cp info_new.txt info_user.txt
+   28  sudo chmod rwx info_user.txt 
+   29  chmod g+rwx info_user.txt 
+   30  ls -al
+   31  cat info_user.txt 
+   32  history > Lab1.txt
