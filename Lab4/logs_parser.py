@@ -1,11 +1,11 @@
-#! /usr/bin/python3
+#! /usr/bin/python
 
 from datetime import datetime
 #from db_tables import access_logs
 from re import compile
 from sqlalchemy import create_engine
 from sys import argv
-from sqlalchemy import Culumn, DateTime, Integer, MetaData, String, Table
+from sqlalchemy import Column, DateTime, Integer, MetaData, String, Table
 
 def getFilePath():
 	if argv[1:]:
@@ -18,7 +18,7 @@ access_logs = Table(
 	'access_logs', MetaData(),
 	Column('id', Integer, primary_key=True),
 	Column('hostname', String),
-	Column('ip_adress', String),
+	Column('ip_address', String),
 	Column('date_time', DateTime),
 	Column('message', String),
 )
@@ -39,9 +39,9 @@ def writeFile():
 		if entry:
 			datetime_str=entry.group(1) +" " + str(datetime.now().year)
 			datetime_obj=datetime.strptime(datetime_str, '%b %d %H:%M:%S %Y')
-			logs_entries.append({"hostname": entry.group(3), "ip_address": entry.group(6), "date_tiime": datetime_obj, "message": entry.group(5)})
+			logs_entries.append({"hostname": entry.group(3), "ip_address": entry.group(6), "date_time": datetime_obj, "message": entry.group(5)})
 	
-	conneciton.execute(acces_logs.insert(None), logs_entries)
+	connection.execute(access_logs.insert(None), logs_entries)
 	connection.close()
 	file.close()
 
