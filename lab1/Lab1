@@ -1,0 +1,113 @@
+    1  sudo apt-get install openssh-server
+    2  sudo
+    3   apt-get install openssh-server
+    4  sudo apt-get install openssh-server
+    5  mkdir -p ~/.ssh
+    6  chmod 700 ~/.ssh
+    7  cd ~/.ssh/
+    8  sudo nano authorized_keys
+    9  ssh-keygen -t rsa
+   10  ssh-copy-id -i ~/.ssh/id_rsa.pub yurikboss@linuxhint
+   11  ssh-agent $BASH
+   12  ssh-add ~/.ssh/id-rsa
+   13  ssh-add ~/.ssh/id_rsa
+   14  sudo nano /etc/ssh/sshd_config
+   15  sudo systemctl restart sshd
+   16  sudo service ssh status
+   17  apt-get install openssh-server
+   18  sudo apt-get install openssh-server
+   19  hostname -I
+   20  ssh -p 2200 yurikboss@linuxhint
+   21  sudo yum -y install openssh-server
+   22  sudo yum -y install openssh-server openssh-client
+   23  sudo yum -y install openssh-server openssh-clients
+   24  sudo chkconfig sshd on
+   25  service sshd start
+   26  netstat -tulpn | grep :22
+   27  sudo nano /etc/ssh/sshd_config
+   28  sudo service sshd restart
+   29  service sshd status
+   30  ssh-keygen
+   31  ssh-copy-id yurikboss@linuxhint
+   32  cat ~/.ssh/id_rsa.pub | ssh yurikboss@linuxhint "mkdir -p ~/.ssh && cat>> ~/.ssh/authorized_keys"
+   33  sudo service sshd restart
+   34  cat ~/.ssh/id_rsa.pub
+   35  mkdir -p ~/.ssh
+   36  echo public_key_string >> ~/.ssh/authorized_keys
+   37  sudo nano /etc/ssh/sshd_config
+   38  sudo systemctl restart sshd.service
+   39  sudo service ssh status
+   40  service sshd start
+   41  sudo service ssh status
+   42  sudo service sshd status
+   43  hostname -I
+   44  ssh -p 2200 yurikboss@linuxhint
+   45  sshd -p 2200 yurikboss@linuxhint
+   46  sudo yum install openssh-server
+   47  sudo chkconfig sshd on
+   48  service ssh start
+   49  service sshd start
+   50  ifconfig
+   51  yum install git
+   52  sudo yum install git
+   53  sudo useradd -p /bin/bash/ test
+   54  sudo /etc/sudoers
+   55  sudo nano /etc/sudoers
+   56  useradd tuxfixer
+   57  sudo nano /etc/sudoers
+   58  sudo nano useradd tuxfixer
+   59  sudo nano /etc/sudoers
+   60  clear
+   61  sudo useradd -p password -s /bin/bash/ test
+   62  sudo /etc/sudoers
+   63  sudo nano /etc/sudoers
+   64  useradd tuxfixer
+   65  sudo nano useradd tuxfixer
+   66  useradd tuxfixer
+   67  sudo nano /etc/sudoers
+   68  useradd tuxfixer
+   69  sudo yum -y install openssh-server openssh-clients
+   70  sudo chkconfig sshd on
+   71  service sshd start
+   72  netstat -tulpn | grep :22
+   73  sudo yumm install nano
+   74  sudo yum install nano
+   75  sudo nano /etc/ssh/sshd_config
+   76  sudo service sshd restart
+   77  service sshd status
+   78  ssh-keygen
+   79  sshd-copy-id yurikboss@linuxhint
+   80  ssh-copy-id yurikboss@linuxhint
+   81  pwd
+   82  cd /etc/
+   83  ls
+   84  pwd
+   85  cd ~
+   86  ls -al
+   87  cat info.txt
+   88  cat>info.txt
+   89  cat info.txt
+   90  mkdir data1
+   91  cp data1 info.txt
+   92  cp info.txt data1/
+   93  cp data1/info.txt data1/info2.txt
+   94  mv data1/info2.txt data1/info_user.txt
+   95  ls -l data1/info_new.txt
+   96  cp data1/info_new.txt data1/info_user.txt
+   97  chmod u+rw data1/info_user.txt
+   98  ls -l data1/info_user.txt
+   99  sudo useradd -p password -s /bin/bash/ test123
+  100  cat /etc/passwd
+  101  w
+  102  useradd tuxfixer
+  103  sudo useradd tuxfixer
+  104  sudo nano /etc/sudoers
+  105  sudo useradd tuxfixer
+  106  sudo useradd -p password -s /bin/bash/ test123
+  107  cat admin:///home/yurikboss/data1
+  108  cat admin:///home/yurikboss/data1/info_user.txt
+  109  cat /home/yurikboss:///home/yurikboss/data1/info_user.txt
+  110  cat home/yurikboss/data1/info_user.txt
+  111  cat>new_file.txt
+  112  ls -l new_file.txt
+  113  history>Lab1
