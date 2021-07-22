@@ -1,0 +1,26 @@
+name: Hlib-Samoshkin-341-lab5
+
+on:
+  workflow_dispatch:
+jobs:
+  sendemailwithuniqueid:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check repo
+        uses: actions/checkout@v2
+      - name: Get log file using wget
+        run: wget https://gitlab.com/oyakivchik/logfile/-/raw/main/access.log
+      - name: Install python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Installing requirements
+        run:
+          pip install -r Lab5/requirements.txt
+      - name: run log_parser
+        run:
+          python Lab5/log_parser.py —path access.log
+      - name: Send unique ip to email
+        run:
+          python Lab5/ip_email.py
