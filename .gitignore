@@ -1,0 +1,6 @@
+/Lab4/*.log
+/Lab4/*.db
+/Lab5/*.log
+/Lab5/*.db
+/Lab5/credentials.py
+/Lab5/__pycache__
