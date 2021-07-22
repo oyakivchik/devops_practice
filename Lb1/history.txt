@@ -1,0 +1,116 @@
+     1  asd
+     2  ls
+     3  mkdir -p ~/.ssh
+     4  ls
+     5  ls -a
+     6  chmod 700 ~/.ssh
+     7  ls -a
+     8  sudo apt-get putty
+     9  sudo apt install  putty
+    10  $ sudo add-apt-repository universe
+    11  $ sudo apt update
+    12  ipaddr
+    13  ipconf
+    14  ip addr
+    15  ssh-copy-id -i ~/.ssh/id_rsa.pub andre@192.168.1.10
+    16  ssh-add ~/.ssh/id_rsa
+    17  exit
+    18  ssh-agent $BASH
+    19  exit
+    20  ssh-add ~/.ssh/id_rsa
+    21  ls ~/.ssh/
+    22  ls -a  ~/.ssh/
+    23  ssh-add ~/.ssh/id_rsa
+    24  ssh andre@192.168.1.10
+    25  e
+    26  exit
+    27  ls
+    28  ls -a
+    29  mkdir test
+    30  ls
+    31  ssh-agent $BASH
+    32  ssh exit
+    33  ssh-add ~/.ssh/id_rsa
+    34  ls
+    35  sudo nano /etc/ssh/sshd_config
+    36  sudo systemctl restart sshd
+    37  hello
+    38  ls
+    39  ls test/
+    40  ls test
+    41  su test_user
+    42  ls
+    43  man useradd
+    44  touch test_file.txt
+    45  ls
+    46  ls -l
+    47  man mc
+    48  sudo yaum install -y mc
+    49  sudo yum install -y mc
+    50  mc
+    51  history > history.txt
+    52  passwd
+    53  pwd
+    54  man pwd
+    55  man pwd
+    56  ls
+    57  cd Downloads/
+    58  pwd
+    59  cd Downloads/
+    60  cd ..
+    61  ls -al
+    62 ls -alh
+    63  cat info.txt
+    64  cat > info.txt
+    65  ls
+    66  cat info.txt
+    67  mkdir data1
+    68  ls
+    69  cp info.txt data1/
+    70  cd data1/
+    71  ls
+    72  cd data1/
+    73  cp info.txt info2.txt
+    74  ls
+    75  man re
+    76  mv info2.txt info_new.txt
+    77  ls
+    78  ls -l info_new.txt
+    79  cp info_new.txt info_user.txt
+    80  ls
+    81  ls -l
+    82  chmod o-rw info_user.txt
+    83  ls -l
+    84  adduser test_user
+    85  sudo adduser test_user
+    86  su test_user
+    87  adduser test_user
+    88  su test_user
+    89  userdel -r test_user
+    90  sudo userdel -r test_user
+    91  useradd test_user -p password test_user
+    92  userdel -r test_user
+    93  useradd test_user -p test
+    94  su test_user
+    95  ls
+    96  sudo ls
+    97  cat info_user.txt
+    98  su andre
+    99  su test_user
+   100  ls
+   101  man useradd
+   102  touch test_file.txt
+   103  ls
+   104  ls -l
+   105  touch test_file.txt
+   106  sudo yum install -y mc
+   107  mc
+   108  touch mc_file.txt
+   109  history > history.txt
+   110  cat history.txt
+   111  man history
+   112  history
+   113  cat ~/.bach_history
+   114  ls -al
+   115  cat .bashrc
+   116  nano .bashrc
