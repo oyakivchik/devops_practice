@@ -1,0 +1,25 @@
+name: yevhenii-ivashchenko-CH-31-lab5
+
+on:
+  workflow_dispatch:
+jobs:
+  parse&send:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Copy repository
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9.6
+      - name: Install requirements
+        run: |
+           if [ -f requirements.txt ]; then 
+           pip install -r requirements.txt; fi
+      - name: Wget log file
+        run: wget https://gitlab.com/oyakivchik/logfile/-/raw/main/access.log
+      - name: Run parser
+        run: python Lab5/log_parser.py --logfile access.log
+      - name: Run script to send email
+        run: python Lab5/ip_email.py
