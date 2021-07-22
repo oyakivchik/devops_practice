@@ -17,7 +17,7 @@ jobs:
             with:
               python-version: 3.6
           - name: Change directory to "Lb5"
-            run: cd Lb5/
+            run: cd Lab5/
           - name: Install dependencies
             run: |
               python -m pip install --upgrade pip
