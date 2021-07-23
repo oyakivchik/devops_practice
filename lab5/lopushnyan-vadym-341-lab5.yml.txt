@@ -1,4 +1,4 @@
-name: Yuriy-Popyuk-341-lab5
+name: Lopushnyan-Vadym-341-lab5
 on:
   workflow_dispatch:
 jobs:
