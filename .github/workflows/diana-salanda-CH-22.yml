@@ -1,0 +1,30 @@
+name: Diana-Salanda-CH-22
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  logs-parser:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+        
+      - name: Download logfile
+        run: wget https://gitlab.com/oyakivchik/logfile/-/raw/main/access.log
+        
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9.6
+          
+      - name: Install requirements
+        run: pip3 install -r Lab5/requirements.txt
+        
+        
+      - name: Run log parser
+        run: python3 Lab5/logs_parser.py access.log
+        
+      - name: Send unique ids to email
+        run: python3 Lab5/ip_email.py access_logs.db
