@@ -1,0 +1,27 @@
+pwd
+cd /etc
+ls
+cd ~
+ls -al
+cat > info.txt
+cat info.txt
+mkdir data`
+mkdir data1
+ls
+cp info.txt data1
+ls
+cd data1
+ls
+cp info.txt info.txt
+cp info.txt info2.txt
+ls
+mv info2.txt info.new.txt
+ls -al
+ls -l info.new.txt
+mv info.new.txt info_new.txt
+ls
+cp info_new.txt info_user.txt
+ls
+chmod 700 info_user.txt
+ls -l info_user.txt
+history > Lab1
