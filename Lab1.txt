@@ -1,0 +1,60 @@
+    1  sudo nano/etc/sudoers
+    2  sudo
+    3  sudo nano/etc/sudoers
+    4  sudo whoami
+    5  visudo
+    6  sudo
+    7  visudo
+    8  sudo visudo
+    9  sudo
+   10  visudo
+   11  sudo visudo
+   12  visudo
+   13  sudo visudo
+   14  sudo nano/etc/sudoers
+   15  nano/etc/sudoers
+   16  sudo nano/etc/sudoers
+   17  exit
+   18  sudo
+   19  sudo visudo
+   20  sudo ls
+   21  pwd
+   22  cd ~
+   23  ls -al
+   24  man cat
+   25  info ls
+   26  ls -info
+   27  whatis ls
+   28  cd /etc/
+   29  ls
+   30  pwd
+   31  cd ~
+   32  cat test.txt
+   33  cat>test1.txt
+   34  cat test.txt
+   35  cat test1.txt
+   36  ls -a>test.txt
+   37  mkdir testDirectory
+   38  man mkdir
+   39  cp test1.txt test.txt
+   40  cat test.txt
+   41  cp test.txt testDirectory/
+   42  cd testDirectory
+   43  pwd
+   44  ls
+   45  cd ~
+   46  cd -r testDirectory TestDirectory
+   47  cp -r testDirectory TestDirectory
+   48  cd testDirectory
+   49  rm test.txt
+   50  ls
+   51  cd ~
+   52  rm -r TestDirectory
+   53  mv test.txt test_rename.txt
+   54  ls
+   55  ls -l test_rename.txt
+   56  chmod u+rw test1.txt
+   57  vi test1.txt
+   58  mkdir Labs
+   59  cd Labs
+   60  history>lab1
