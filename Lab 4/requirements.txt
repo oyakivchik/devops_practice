@@ -1,0 +1,11 @@
+certifi==2021.5.30
+charset-normalizer==2.0.3
+greenlet==1.1.0
+idna==3.2
+importlib-metadata==4.6.1
+requests==2.26.0
+somepackage==1.2.3
+SQLAlchemy==1.4.21
+typing-extensions==3.10.0.0
+urllib3==1.26.6
+zipp==3.5.0
