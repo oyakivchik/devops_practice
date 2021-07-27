@@ -1,0 +1,43 @@
+sudo
+sudo apt-get install openssh-server
+sudo yum -y install openssh-server openssh-clients
+sudo chkconfig sshd on
+service sshd start
+netstat -tulpn | grep :22
+sudo netstat -tulpn | grep :22
+apt-get install openssh-server
+service ssh status
+sudo yum install nano
+sudo nano /etc/ssh/sshd_gonfig
+sudo service sshd restart
+service sshd status
+service ssh status
+sudo service ssh restart
+hostname -I
+sudo nano /etc/ssh/sshd_gonfig
+sudo service sshd restart
+service sshd status
+sshd -p 2000 oleeg@localhost
+passwd oleg8895
+sudo bash
+sudo -s
+mkdir UserDir
+ls	
+mv user_file UserDir
+ls	
+ls UserDir	
+history > user_file
+cat user_file
+chmod a + rwx user_file
+chmod -a + rwx user_file
+chmod 762 user_file
+ls UserDir
+ls -al
+chmod 777 user_file
+ls -al
+history > history.txt
+cp history.txt copy_history.txt
+ls UserDir
+mv history.txt copy_history.txt UserDir
+ls UserDir
+history > history.txt
