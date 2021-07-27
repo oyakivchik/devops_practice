@@ -1,0 +1,54 @@
+    1  sudo useradd -p password -s /bin/bash/ test
+    2  sudo /etc/sudoers
+    3  sudo nano /etc/sudoers
+    4  useradd tuxfixer
+    5  sudo nano useradd tuxfixer
+    6  useradd tuxfixer
+    7  sudo nano /etc/sudoers
+    8  useradd tuxfixer
+    9  sudo yum -y install openssh-server openssh-clients
+   10  sudo chkconfig sshd on
+   11  service sshd start
+   12  netstat -tulpn | grep :22
+   13  sudo yumm install nano
+   14  sudo yum install nano
+   15  sodo nano /etc/ssh/sshd_config
+   16  sudo nano /etc/ssh/sshd_config
+   17  sudo service sshd restart
+   18  service sshd status
+   19  ssh keygen
+   20  ssh-copy-id danya@localhost
+   21  pwd
+   22  cd /etc/
+   23  ls
+   24  pwd
+   25  cd ~
+   26  ls -al
+   27  cat>info.txt
+   28  cat info.txt
+   29  mkdir data1
+   30  cp  data1 info.txt
+   31  cp info.txt data1/
+   32  cp data1/info.txt data1/info2.txt
+   33  mv data1/info2.txt data1/info_new.txt
+   34  ls -l data1/info_new.txt
+   35  cp data1/info_new.txt data1/info_user.txt
+   36  chmod u+rw data1/info_user.txt
+   37  ls -l data1/info_user.txt
+   38  sudo useradd -p password -s /bin/bash/ test123
+   39  sudo nano  useradd -p password -s /bin/bash/ test123
+   40  useradd -p password -s /bin/bash/ test123
+   41  cat /etc/passwd
+   42  useradd tuxfixer
+   43  sudo useradd tuxfixer
+   44  suno nano /etc/sudoers
+   45  sudo nano /etc/sudoers
+   46  sudo useradd tuxfixer
+   47  useradd -p password -s /bin/bash/ test123
+   48  cat admin:///home/danya/data1
+   49  cat admin:///home/danya/data1/info_user.txt
+   50  cat /home/albinator:///home/danya/data1/info_user.txt
+   51  cat home/danya/data1/info_user.txt
+   52  cat>new_file.txt
+   53  ls -l new_file.txt 
+   54  history>devooopls_lab1
