@@ -51,4 +51,4 @@
    51  cat home/danya/data1/info_user.txt
    52  cat>new_file.txt
    53  ls -l new_file.txt 
-   54  history>devooopls_lab1
+   54  history>Lab1-devooops
