@@ -8,6 +8,7 @@ from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, 
 import argparse
 from re import compile
 from datetime import datetime
+import pandas as pd
 
 #Get path of file from agruments
 parser=argparse.ArgumentParser(
@@ -25,7 +26,7 @@ args=parser.parse_args()
 
 
 #Connecting to database
-engine = create_engine('sqlite:///access_logs.db', echo = False)
+engine = create_engine('sqlite:///access_logs.db', echo = True)
 
 #Creating table:
 meta = MetaData()
@@ -73,8 +74,8 @@ for line in file:
     			"message":entry.group(5)
   		})
 
-df = pd.DataFrame(logs_entries)
-df.to_excel("access_logs.xlsx")
+#df = pd.DataFrame(logs_entries)
+#df.to_excel("access_logs.xlsx")
 
 #Bulk insert:
 result = conn.execute(access_logs.insert(None), logs_entries)
